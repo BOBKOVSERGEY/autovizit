@@ -1,0 +1,161 @@
+.footer-menu {
+  padding: 30px 0;
+  background: #000;
+
+  &__heading {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #d62f26;
+      text-decoration: none;
+    }
+    &:focus {
+      color: #d62f26;
+      text-decoration: none;
+    }
+  }
+
+  &__company-details {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &__links {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+
+    & li {
+      margin: 4px 0;
+    }
+    & a {
+      color: #fff;
+
+      &:hover {
+        color: #d62f26;
+        text-decoration: none;
+      }
+      &:focus {
+        color: #d62f26;
+        text-decoration: none;
+      }
+
+    }
+  }
+}
+
+.footer-elements {
+  background-color: #d62f26;
+  padding: 20px 0;
+
+  & a {
+    &:hover {
+      text-decoration: none;
+    }
+    &:focus {
+      text-decoration: none;
+    }
+  }
+  &__logo {
+    font-family: RobotoMedium;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 48px;
+    &_white {
+      color: #fff;
+    }
+  }
+
+  &__sub-logo {
+    font-family: RobotoRegular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 13px;
+    line-height: 18px;
+    margin-top: -2px;
+  }
+
+  &__phone {
+    font-family: RobotoRegular;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 15px;
+
+    & a {
+      color: #fff;
+    }
+    & i {
+      margin-right: 3px;
+    }
+  }
+  &__address {
+    font-family: RobotoRegular;
+    color: #fff;
+    line-height: 2em;
+  }
+  &__work-hours {
+    font-family: RobotoRegular;
+    color: #fff;
+    margin-top: 15px;
+  }
+}
+
+.footer-form {
+  border: 3px solid #efaca8;
+  padding: 2px;
+  position: relative;
+
+  & label {
+    position: absolute;
+    color: #d62f26;
+    font-size: 14px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  & input::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  &__input-phone {
+    width: 100%;
+    border: 0;
+    background: #000;
+    height: 55px;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+      background: rgba(#333, 1);
+    }
+  }
+
+  &__input-submit {
+    font-family: RobotoRegular;
+    border: 0;
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    color: #000;
+    margin-top: 2px;
+
+    &:hover {
+      background: rgba(#fff, .9);
+    }
+  }
+}
+.input-mask {
+  color: #fff;
+  letter-spacing: 2px;
+}

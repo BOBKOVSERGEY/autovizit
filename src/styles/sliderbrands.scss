@@ -1,0 +1,46 @@
+
+.slider-brands {
+  margin-bottom: 50px;
+}
+.brands {
+
+  &__item {
+
+  }
+
+  &__arrow {
+    margin-top: 30px;
+
+    & button {
+      margin: 0 5px;
+    }
+
+    & i {
+      font-size: 30px;
+    }
+  }
+}
+
+.slider-arrow {
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  opacity: .8;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+}
+.slider-arrow:focus {
+  outline: 0;
+}
+.slider-arrow:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.js-slider-prev i {
+  margin-left: -4px;
+}
+.js-slider-next i {
+  margin-right: -4px;
+}

@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dist/css/fonts.css">
+  <link rel="stylesheet" href="dist/css/slick.css?v=23">
+  <link rel="stylesheet" href="dist/css/slick-theme.css?v=23">
+  <link rel="stylesheet" href="dist/css/main.css?v=23">
+
+  <!-- Favicons for all devices -->
+  <link rel="apple-touch-icon" sizes="57x57" href="dist/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="dist/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="dist/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="dist/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="dist/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="dist/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="dist/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="dist/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="dist/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="dist/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="dist/images/favicons/manifest.json">
+  <link rel="mask-icon" href="dist/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="dist/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Document</title>
+
+</head>
+<body>
+  <header>
+    <section class="address-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="address-top__desc">
+              Московская область, 43-й км Минского шоссе, (23 км от МКАД)
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a href="#" class="address-top__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header-elements">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="logo-header">
+              <div class="header-elements__logo">
+                Авто<span class="header-elements__logo_white">визит</span>
+              </div>
+              <div class="header-elements__sub-logo">
+                Автотехцентр
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 header-elements__block-phone">
+            <div class="header-elements__phone text-center">
+              <a href="tel:+74957757779">+7 (495) 775-77-79</a>
+              <div class="header-elements__work-hours">с 9 до 21 ч./ 7 дней в неделю</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header-menu">
+      <div class="main-menu">
+        <nav class="navbar">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="#">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/about.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">О компании</div>
+                  </a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/service.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Сервис</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Трансмиссия</a></li>
+                    <li><a href="#">Двигатель</a></li>
+                    <li><a href="#">Кузов</a></li>
+                    <li><a href="#">Подвеска</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/spareparts.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Запчасти</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/butter.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Масло</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/model.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Марки</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Мерседес</a></li>
+                    <li><a href="#">Шкода</a></li>
+                    <li><a href="#">Ауди</a></li>
+                    <li><a href="#">Фолкс</a></li>
+                    <li><a href="#">Ниссан</a></li>
+                    <li><a href="#">Акура</a></li>
+                    <li><a href="#">Газ</a></li>
+                    <li><a href="#">Лада</a></li>
+                    <li><a href="#">Порше</a></li>
+                    <li><a href="#">Бугатти</a></li>
+                    <li><a href="#">Мазератти</a></li>
+                    <li><a href="#">Феррари</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/stock.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Акции</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/contacts.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Контакты</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="header-slider">
+        <div class="slider js-slider">
+          <div class="slider__item" style="background-image: url('dist/images/slide1.jpg');">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="slider__pos">
+                    <div class="slider__title">
+                      Официальный прием в неофициальной обстановке
+                    </div>
+                    <div class="slider__form">
+                      <form action="" method="post" class="slider-form">
+                        <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="text" placeholder="+7(___)___-__-__"></div>
+                        <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('dist/images/slide2.jpg');">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="slider__pos">
+                    <div class="slider__title">
+                      Очистка системы кондиционирования
+                    </div>
+                    <div class="slider__form">
+                      <form action="" method="post" class="slider-form">
+                        <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="text" placeholder="+7(___)___-__-__"></div>
+                        <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('dist/images/slide3.jpg');">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="slider__pos">
+                    <div class="slider__title">
+                      Мойка авто кузов и ковры
+                    </div>
+                    <div class="slider__form">
+                      <form action="" method="post" class="slider-form">
+                        <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="text" placeholder="+7(___)___-__-__"></div>
+                        <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </header>
+  <section class="offers">
+    <div class="container">
+      <div class="offers-list">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="offers-list__item" style="background-image: url('dist/images/car1.jpg');">
+              <a class="offers-list__link" href="#">
+                <div class="offers-list__bg">
+                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+                </div>
+                <div class="offers-list__text">
+                  <div class="offers-list__heading">Очистка коленых дисков</div>
+                  <div class="offers-list__price">за 1795 рублей</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="offers-list__item" style="background-image: url('dist/images/car2.jpg');">
+              <a class="offers-list__link" href="#">
+                <div class="offers-list__bg">
+                  <div class="offers-list__hover-text">Обслуживание и заправка кондиционеров</div>
+                </div>
+                <div class="offers-list__text">
+                  <div class="offers-list__heading">Заправка кондиционеров</div>
+                  <div class="offers-list__price">за 1510 рублей</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="offers-list__item" style="background-image: url('dist/images/car3.jpg');">
+              <a class="offers-list__link" href="#">
+                <div class="offers-list__bg">
+                  <div class="offers-list__hover-text">Любые размеры</div>
+                </div>
+                <div class="offers-list__text">
+                  <div class="offers-list__heading">Шиномонтаж</div>
+                  <div class="offers-list__price">за 1144 рублей</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="offers-list__item" style="background-image: url('dist/images/car4.jpg');">
+              <a class="offers-list__link" href="#">
+                <div class="offers-list__bg">
+                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+                </div>
+                <div class="offers-list__text">
+                  <div class="offers-list__heading">Мойка авто</div>
+                  <div class="offers-list__price">за 440 рублей</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="offers-list__item" style="background-image: url('dist/images/car5.jpg');">
+              <a class="offers-list__link" href="#">
+                <div class="offers-list__bg">
+                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+                </div>
+                <div class="offers-list__text">
+                  <div class="offers-list__heading">Диагностика авто</div>
+                  <div class="offers-list__price">за 13521 рублей</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="offers-list__item" style="background-image: url('dist/images/car6.jpg');">
+              <a class="offers-list__link" href="#">
+                <div class="offers-list__bg">
+                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+                </div>
+                <div class="offers-list__text">
+                  <div class="offers-list__heading">Системы сигнализации</div>
+                  <div class="offers-list__price">за 13440 рублей</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-company-text">
+    <div class="container">
+      <p>Автотехцентр «Авто-Визит» успешно проводит сервисное обслуживание и ремонт автомобилей Audi, BMW, Mercedes, Volkswagen, Skoda, Opel, Chevrolet, Volvo уже более 10 лет.</p>
+      <h2>К услугам наших клиетов:</h2>
+      <ul class="content-list">
+        <li class="content-list__item">Сервис в день обращения</li>
+        <li class="content-list__item">Высококвалифицированный персонал, прошедший обучение в учебных центрах крупнейших автоконцернов</li>
+        <li class="content-list__item">Полное сервисное обслуживание автомобилей</li>
+        <li class="content-list__item">Диагностическое и ремонтное оборудование последнего поколения</li>
+        <li class="content-list__item">Большой ассортимент оригинальных запчастей и аксессуаров на складе и под заказ</li>
+        <li class="content-list__item">Возможность присутствия в ремонтном цехе</li>
+        <li class="content-list__item">Бесплатная мойка и уборка салона</li>
+        <li class="content-list__item">Услуги аренды автомобиля на время ремонта и вызов такси</li>
+        <li class="content-list__item">Комфортная зона ожидания</li>
+        <li class="content-list__item">Бесплатный Wi-Fi</li>
+        <li class="content-list__item">Оплата банковскими картами</li>
+      </ul>
+    </div>
+  </section>
+  <section class="slider-brands text-center">
+
+    <div class="brands js-brands">
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/shevrole.png" alt="">
+        </div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/vw.png" alt="">
+        </div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/bmw.png" alt="">
+        </div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/volvo.png" alt="">
+        </div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/mercedec.png" alt="">
+        </div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/audi.png" alt="">
+        </div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/opel.png" alt="">
+        </div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img">
+          <img src="dist/images/shkoda.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="brands__arrow">
+      <button class="slider-arrow prev js-slider-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+      <button class="slider-arrow next js-slider-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    </div>
+  </section>
+  <section class="map-dot">
+    <div class="map_container" id="map_container"></div>
+  </section>
+  <footer>
+    <section class="footer-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+
+              <a class="footer-menu__heading" href="#">О компании</a>
+
+            <ul class="footer-menu__company-details">
+              <li>ООО «Автовизит»</li>
+              <li>ИНН 1234567889</li>
+              <li>КПП 123456</li>
+              <li>ОГРН 123456789</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+
+            <a class="footer-menu__heading" href="#">Сервис</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Трансмиссия</a></li>
+              <li><a href="#">Двигатель</a></li>
+              <li><a href="#">Кузов</a></li>
+              <li><a href="#">Подвеска</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+
+            <a class="footer-menu__heading" href="#">Запчасти</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Подбор запчастей</a></li>
+              <li><a href="#">Заказать запчасти</a></li>
+              <li><a href="#">Запчасти на TOYOTA</a></li>
+              <li><a href="#">Запчасти на BMW</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+
+            <a class="footer-menu__heading" href="#">Масло</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Подбор моторного масла</a></li>
+              <li><a href="#">Заказать маторное масло</a></li>
+              <li><a href="#">Маторное масло для TOYOTA</a></li>
+              <li><a href="#">Моторное масло для LEXUS</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1">
+
+            <a class="footer-menu__heading" href="#">Марки</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">TOYOTA</a></li>
+              <li><a href="#">BMW</a></li>
+              <li><a href="#">NISSAN</a></li>
+              <li><a href="#">Все марки</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+
+            <a class="footer-menu__heading" href="#">Акции</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Специальные цены на предустановку пусковых двигателей</a></li>
+              <li><a href="#">Выгодная мойка радиатора охлаждения</a></li>
+              <li><a href="#">Все акции</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1">
+
+            <a class="footer-menu__heading" href="#">Контакты</a>
+
+            <ul class="footer-menu__company-details">
+              <li>МО, МИНСКОЕ ШОССЕ,
+                КРАСНОЗНАМЕНСК</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-elements">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <div class="footer-elements__logo">
+                Авто<span class="footer-elements__logo_white">визит</span>
+              </div>
+              <div class="footer-elements__sub-logo">
+                Автотехцентр
+              </div>
+            </a>
+            <div class="footer-elements__phone">
+              <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+74957757779">+7 (495) 775-77-79</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-elements__address">
+              Московская область,
+              43-й км Минского шоссе, (23 км от МКАД)
+            </div>
+            <div class="footer-elements__work-hours">
+              с 9 до 21 ч./ 7 дней в неделю
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-elements__form">
+              <form action="" method="post" class="footer-form">
+                <div><input class="footer-form__input-phone input-mask" name="phone" autocomplete="off" type="text" placeholder="+7(___)___-__-__"></div>
+                <div><input class="footer-form__input-submit" type="submit" value="Записаться на сервис"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="dist/js/jquery.min.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="dist/js/slick.min.js"></script>
+  <script src="dist/js/jquery.inputmask.js"></script>
+  <script src="dist/js/jquery.validate.min.js"></script>
+  <script src="dist/js/main.js?v=6"></script>
+  <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyC_RnnMi8Drzf9l185rJiw01huaERQhlak&amp;callback=initialize"></script>
+</body>
+</html>

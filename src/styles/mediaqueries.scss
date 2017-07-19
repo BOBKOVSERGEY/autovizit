@@ -1,0 +1,198 @@
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+  .address-top {
+    font-size: 15px;
+  }
+
+  .header-elements {
+    &__logo {
+      text-align: center;
+    }
+
+    &__sub-logo {
+      text-align: center;
+      margin-left: 15px;
+    }
+
+    &__block-phone {
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .address-top {
+    text-align: center;
+
+    &__desc {
+      margin: 0 0 4px 0;
+    }
+  }
+
+  .main-menu {
+    position: absolute;
+    width: 100%;
+
+    & .navbar-nav>li{
+      display: block;
+    }
+
+  }
+
+  .slider {
+    &__pos {
+      align-items: center;
+    }
+
+  }
+
+  .nav-icons {
+
+    &__wrapper {
+
+
+      & img {
+        margin-top: 4px;
+      }
+
+      &:before {
+        border-width: 0 0px 0px 0px;
+      }
+
+      &:after {
+          height: 140px;
+          left: 50%;
+      }
+    }
+  }
+
+  .main-menu {
+
+    & .nav > li.dropdown.open .dropdown-menu {
+      display:table;
+      width: 100%;
+      text-align: left;
+      left:0;
+      right:0;
+      margin: -8px 0 0;
+      font-size: 12px;
+      text-transform: uppercase;
+      background-color: #d62f26;
+      border: 0px solid rgba(0,0,0,.0);
+      border-radius: 0px;
+      box-shadow: 0 0px 0px rgba(0,0,0,.0);
+    }
+
+    & .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      color: #fff;
+    }
+
+    & .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+      color: #ccc;
+    }
+    & .dropdown-menu>li {
+      display:block;
+      text-align: center;
+    }
+
+  }
+
+}
+
+@media only screen and (max-width : 550px) {
+
+  .header-elements {
+    &__logo {
+      font-size: 60px;
+    }
+
+    &__sub-logo {
+      text-align: center;
+      margin-left: 15px;
+      letter-spacing: 15.1px;
+    }
+    &__phone {
+
+      font-size: 38px;
+
+    }
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .header-elements {
+    background-color: #d62f26;
+
+    &__logo {
+      font-size: 50px;
+
+    }
+
+    &__sub-logo {
+      margin-left: 0;
+      letter-spacing: 8.1px;
+    }
+
+
+    &__phone {
+
+      font-size: 28px;
+
+    }
+
+    &__work-hours {
+      font-size: 18px;
+    }
+  }
+  .slider {
+    &__form {
+      width: 290px;
+    }
+    &__title {
+      font-size: 25px;
+      padding: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width : 375px) {
+
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+@media only screen and (min-width : 992px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+
+}
+
+@media only screen and (min-width : 480px) {
+
+}
