@@ -1,4 +1,8 @@
 $(function () {
+
+  /*input mask*/
+  $(".input-mask").inputmask("+7(999)999-99-99");
+
   /* burger */
   var toggles = $(".navbar-toggle");
   toggles.on("click", function() {
@@ -98,8 +102,6 @@ $(function () {
     $('.js-brands').slick("slickNext");
   });
 
-  /*input mask*/
-  $(".input-mask").inputmask("+7(999)999-99-99");
 
   /*form valid*/
   $('.footer-form').validate({
