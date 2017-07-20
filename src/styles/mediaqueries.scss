@@ -1,5 +1,14 @@
 @media only screen and (max-width : 1200px) {
+  .main-menu {
+    & .nav>li>a {
+      padding: 10px 3px;
+    }
+    & .nav > li.dropdown.open .dropdown-menu {
+      width: 98.5%;
+      margin: -8px 0 0 7px;
+    }
 
+  }
 }
 
 @media only screen and (max-width : 992px) {
@@ -21,11 +30,19 @@
       text-align: center;
     }
   }
+  .footer-elements {
+    text-align: center;
+
+    &__form {
+      margin-top: 10px;
+    }
+  }
 }
 
 @media only screen and (max-width : 768px) {
   .address-top {
     text-align: center;
+    margin-top: 50px;
 
     &__desc {
       margin: 0 0 4px 0;
@@ -71,6 +88,9 @@
 
   .main-menu {
 
+    top: 0;
+    margin-top: 0px;
+
     & .nav > li.dropdown.open .dropdown-menu {
       display:table;
       width: 100%;
@@ -99,6 +119,11 @@
     }
 
   }
+
+  & .navbar {
+    background: #000;
+  }
+
 
 }
 
@@ -190,9 +215,21 @@ and (max-device-width : 667px) {
 }
 
 @media only screen and (min-width : 768px) {
-
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
 }
 
 @media only screen and (min-width : 480px) {
 
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
 }
