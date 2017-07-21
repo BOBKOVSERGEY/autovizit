@@ -1,0 +1,23 @@
+.photo-gallery {
+  &__heading {
+    font-family: RobotoMedium;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #d62f26;
+    margin-bottom: 20px;
+  }
+}
+
+.gallery {
+  text-align: center;
+  &__item {
+    outline: none;
+  }
+  &__img {
+      margin: 0 5px;
+    & img {
+      max-width: 100%;
+    }
+  }
+
+}

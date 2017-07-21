@@ -4,6 +4,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
+.content {
+  margin: 90px 0 15px 0;
+}
 .cd-top {
   display: inline-block;
   height: 40px;
@@ -46,8 +49,15 @@ body {
 @import "mixins";
 @import "header";
 @import "slider";
+@import "advantages";
+@import "article";
+@import "photogallery";
+@import "contactsinfo";
+@import "requisites";
+@import "breadcrumb";
 @import "offers";
 @import "aboutmain";
+@import "contacts-form";
 @import "sliderbrands";
 @import "map";
 @import "footer";

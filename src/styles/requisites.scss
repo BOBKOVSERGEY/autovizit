@@ -1,0 +1,26 @@
+.requisites {
+  color: #000;
+
+  &__heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #d62f26;
+    font-size: 36px;
+    margin-top: 35px;
+  }
+  &__heading-company, &__inn, &__ogrn, &__ur-address, &__work-hours, &__phone{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #d62f26;
+    margin-top: 15px;
+  }
+
+  &__img {
+    margin-top: 20px;
+    text-align: center;
+
+    & img {
+      max-width: 100%;
+    }
+  }
+}

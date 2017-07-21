@@ -1,0 +1,15 @@
+.contacts-info {
+  margin-top: 30px;
+  color: #000;
+  &__heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #d62f26;
+  }
+  &__heading-phone, &__heading-address, &__work-hours {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #d62f26;
+  }
+}

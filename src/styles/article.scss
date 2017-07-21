@@ -1,0 +1,13 @@
+.article {
+  font-size: 18px;
+  margin-top: 15px;
+
+  &__title {
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #d62f26;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+}

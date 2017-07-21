@@ -9,9 +9,19 @@
     }
 
   }
+  .advantages-item {
+
+    &__number {
+      font-size: 66px;
+    }
+    &__text {
+      font-size: 27px;
+    }
+  }
 }
 
 @media only screen and (max-width : 992px) {
+
   .address-top {
     font-size: 15px;
   }
@@ -30,11 +40,30 @@
       text-align: center;
     }
   }
+
+  .nav-icons {
+    &__wrapper {
+      padding: 20px 10px 5px 10px;
+      & img {
+        width: 60px;
+      }
+    }
+
+  }
   .footer-elements {
     text-align: center;
 
     &__form {
       margin-top: 10px;
+    }
+  }
+  .advantages-item {
+
+    &__number {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
     }
   }
 }
@@ -211,7 +240,9 @@ and (max-device-width : 667px) {
 
 
 @media only screen and (min-width : 992px) {
-
+  .modal-lg {
+    min-width: 1140px;
+  }
 }
 
 @media only screen and (min-width : 768px) {

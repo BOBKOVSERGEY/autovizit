@@ -102,6 +102,43 @@ $(function () {
     $('.js-brands').slick("slickNext");
   });
 
+  /*slider gallery*/
+  /*slider-brands*/
+  $('.js-gallery').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: false,
+    autoplay: false,
+    autoplaySpeed: 5000,
+    fade: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+
+    ]
+  });
+  $(".js-slider-prev").on("click", function() {
+    $('.js-gallery').slick("slickPrev");
+  });
+
+  $(".js-slider-next").on("click", function() {
+    $('.js-gallery').slick("slickNext");
+  });
 
   /*form valid*/
   $('.footer-form').validate({
