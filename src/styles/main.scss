@@ -45,13 +45,21 @@ body {
   opacity: 1;
 }
 
+.input-mask {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
 @import "variables";
 @import "mixins";
 @import "header";
 @import "slider";
 @import "advantages";
 @import "article";
+@import "actions";
+@import "marki";
 @import "photogallery";
+@import "formasevice";
 @import "contactsinfo";
 @import "requisites";
 @import "breadcrumb";

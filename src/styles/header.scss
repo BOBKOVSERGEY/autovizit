@@ -212,7 +212,7 @@
     }
     &_active {
       background-color: #d62f26;
-      background: #d62f26;
+      background: linear-gradient(37deg, rgba(#d62f26,1) 0%,rgba(#d62f26,1) 63%,rgba(#9f2b24,1) 63%,rgba(#9f2b24,1) 65%,rgba(#9f2b24,1) 100%);
     }
   }
 }

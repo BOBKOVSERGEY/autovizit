@@ -2,6 +2,7 @@ $(function () {
 
   /*input mask*/
   $(".input-mask").inputmask("+7(999)999-99-99");
+  $(".form-service__input-mask").inputmask("+7(999)999-99-99");
 
   /* burger */
   var toggles = $(".navbar-toggle");
@@ -167,6 +168,31 @@ $(function () {
     }
   });
 
+  $('.form-service__form').validate({
+    rules: {
+      auto: {
+        required: true,
+      },
+      work: {
+        required: true,
+      },
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      auto: {
+        required: "Выберите авто"
+      },
+      work: {
+        required: "Выберите тип работы"
+      },
+      phone: {
+        required: "Введите ваш телефон"
+      }
+    }
+  });
+
   /*button to top*/
   var offset = 300,
 //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
@@ -192,6 +218,48 @@ $(function () {
     );
   });
   /*end button to top*/
+
+  /*form service dropdown-brands*/
+  $('.form-service__input_brands').on('click', function () {
+    $('.form-service__dropdown-brands').slideToggle();
+    $('.form-service__dropdown-work').slideUp();
+  })
+
+  $('.dropdown-brands-item').bind('click',function(){
+    var val = $('.form-service__input_brands').val();
+    var brand = $(this).text()
+    $('.form-service__input_brands').val(val + brand);
+    $('.form-service__dropdown-brands').slideUp();
+  });
+  /*end form service dropdown-brands*/
+
+  /*form service dropdown-work*/
+  $('.form-service__input_work').on('click', function () {
+    $('.form-service__dropdown-work').slideToggle();
+    $('.form-service__dropdown-brands').slideUp();
+  })
+
+  $('.dropdown-work-item').bind('click',function(){
+    var val = $('.form-service__input_work').val();
+    var work = $(this).text()
+    $('.form-service__input_work').val(val + work);
+    $('.form-service__dropdown-work').slideUp();
+  });
+  /*end form service dropdown-work*/
+
+  /*form service dropdown-phone*/
+  $('.form-service__input_phone').on('click', function () {
+    $('.form-service__dropdown-work').slideUp();
+    $('.form-service__dropdown-brands').slideUp();
+  })
+
+  /*end form service dropdown-phone*/
+
+  /*reset form*/
+  $('.reset-form').on('click', function () {
+    $(".form-service__form")[0].reset();
+  });
+
 })
 
 /*google map*/

@@ -15,6 +15,9 @@
       color: #d62f26;
       text-decoration: none;
     }
+    &_active {
+      color: #d62f26;
+    }
   }
 
   &__company-details {
@@ -49,6 +52,11 @@
       }
 
     }
+
+    & &_active {
+      color: #d62f26;
+    }
+
   }
 }
 
@@ -154,8 +162,4 @@
       background: rgba(#fff, .9);
     }
   }
-}
-.input-mask {
-  color: #fff;
-  letter-spacing: 2px;
 }

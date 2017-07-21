@@ -1,0 +1,75 @@
+.auto-brand {
+  &__heading {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d62f26;
+  }
+  &__brand-name {
+    color: #5e5d5d;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  &__model {
+    display: inline-block;
+    border: 1px solid #bdbcbc;
+    padding: 3px 10px;
+    margin: 5px 2px;
+    min-width: 110px;
+    text-align: center;
+    color: #5e5d5d;
+    font-size: 24px;
+    &:hover {
+      text-decoration: none;
+      color: #D62F26;
+    }
+    &:focus {
+      text-decoration: none;
+      color: #D62F26;
+      border: 1px solid #D62F26;
+    }
+    &_active {
+      color: #D62F26;
+      border: 1px solid #D62F26;
+    }
+  }
+  &__model-list {
+    margin-top: 15px;
+  }
+  &__all-model {
+    text-align: right;
+    color: #5e5d5d;
+    & a {
+      color: #5e5d5d;
+      &:hover {
+        text-decoration: none;
+        color: #D62F26;
+      }
+      &:focus {
+        text-decoration: none;
+        color: #D62F26;
+      }
+    }
+  }
+}
+.service-model {
+  color: #000;
+  &__heading {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d62f26;
+    margin: 30px 0;
+  }
+  & a {
+    color: #d62f26;
+    &:hover {
+      text-decoration: none;
+      color: #000;
+    }
+    &:focus {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

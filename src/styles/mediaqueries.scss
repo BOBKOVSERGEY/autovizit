@@ -147,12 +147,11 @@
       text-align: center;
     }
 
-  }
+    & .navbar {
+      background: #000;
+    }
 
-  & .navbar {
-    background: #000;
   }
-
 
 }
 
@@ -181,7 +180,7 @@
     background-color: #d62f26;
 
     &__logo {
-      font-size: 50px;
+      font-size: 47px;
 
     }
 
@@ -213,7 +212,31 @@
 }
 
 @media only screen and (max-width : 375px) {
+  .article-post {
 
+    &__button-more {
+      width: 275px;
+
+    }
+  }
+  .form-service {
+    &__submit {
+      font-family: RobotoMedium;
+      width: 275px;
+    }
+  }
+  .service-model {
+    &__heading {
+      font-size: 34px;
+    }
+  }
+  .footer-elements {
+
+
+    &__sub-logo {
+      font-size: 17px;
+    }
+  }
 
 }
 
