@@ -89,4 +89,9 @@
       color: #fff;
     }
   }
+  &__anons {
+    display: flex;
+    flex-direction: column;
+    min-height: 360px;
+  }
 }
