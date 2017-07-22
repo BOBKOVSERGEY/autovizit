@@ -1,0 +1,49 @@
+.popup-form {
+  &__close {
+    position: relative;
+    padding: 15px;
+  }
+  &__agreement {
+    color: #000;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  &__input-name, &__input-phone {
+    border: 1px solid #939393;
+    width: 100%;
+    height: 41px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+  &__heading {
+    font-family: FranklinGothic-DemiCond;
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: -10px 0 20px 0;
+  }
+  &__input-submit {
+    width: 360px;
+    border: 0;
+    background: #d62f26;
+    font-family: RobotoRegular;
+    height: 55px;
+    color: #fff;
+    margin-top: 2px;
+  }
+  a {
+    color: #d62f26;
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+    &:focus {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+  & .modal-body {
+    padding: 30px;
+  }
+}

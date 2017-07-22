@@ -100,6 +100,7 @@
   margin-bottom: 5px;
   transition: all .3s;
   &:hover {
+    cursor: pointer;
     color: #ccc;
   }
 }

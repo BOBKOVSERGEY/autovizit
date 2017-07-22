@@ -209,6 +209,11 @@
       padding: 15px;
     }
   }
+  .offers-modal {
+    &__block-form {
+      width: 250px;
+    }
+  }
 }
 
 @media only screen and (max-width : 375px) {

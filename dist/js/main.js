@@ -3,6 +3,7 @@ $(function () {
   /*input mask*/
   $(".input-mask").inputmask("+7(999)999-99-99");
   $(".form-service__input-mask").inputmask("+7(999)999-99-99");
+  $(".offers-modal-form__input-mask").inputmask("+7(999)999-99-99");
 
   /* burger */
   var toggles = $(".navbar-toggle");
@@ -156,6 +157,19 @@ $(function () {
   });
 
   $('.slider-form').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+
+  $('.offers-modal-form').validate({
     rules: {
       phone: {
         required: true,
