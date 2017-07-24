@@ -321,6 +321,92 @@ $(function () {
     $(".form-service__form")[0].reset();
   });
 
+  /*offers main madal-one*/
+  $('.modal-one-link').on('click', function (event){
+    event.preventDefault();
+
+    $('.offers-list').fadeOut();
+    $('.modal-one-overlay').fadeIn();
+  })
+  $('.offers-modal__close').on('click', function (event){
+    event.preventDefault();
+
+    $('.modal-one-overlay').fadeOut();
+    $('.offers-list').fadeIn();
+  });
+
+  /*offers main madal-two*/
+  $('.modal-two-link').on('click', function (event){
+    event.preventDefault();
+
+    $('.offers-list').fadeOut();
+    $('.modal-two-overlay').fadeIn();
+  })
+  $('.offers-modal__close').on('click', function (event){
+    event.preventDefault();
+
+    $('.modal-two-overlay').fadeOut();
+    $('.offers-list').fadeIn();
+  });
+
+  /*offers main madal-three*/
+  $('.modal-three-link').on('click', function (event){
+    event.preventDefault();
+
+    $('.offers-list').fadeOut();
+    $('.modal-three-overlay').fadeIn();
+  })
+  $('.offers-modal__close').on('click', function (event){
+    event.preventDefault();
+
+    $('.modal-three-overlay').fadeOut();
+    $('.offers-list').fadeIn();
+  });
+
+  /*offers main madal-four*/
+  $('.modal-four-link').on('click', function (event){
+    event.preventDefault();
+
+    $('.offers-list').fadeOut();
+    $('.modal-four-overlay').fadeIn();
+  })
+  $('.offers-modal__close').on('click', function (event){
+    event.preventDefault();
+
+    $('.modal-four-overlay').fadeOut();
+    $('.offers-list').fadeIn();
+  });
+
+  /*offers main madal-five*/
+  $('.modal-five-link').on('click', function (event){
+    event.preventDefault();
+
+    $('.offers-list').fadeOut();
+    $('.modal-five-overlay').fadeIn();
+  })
+  $('.offers-modal__close').on('click', function (event){
+    event.preventDefault();
+
+    $('.modal-five-overlay').fadeOut();
+    $('.offers-list').fadeIn();
+  });
+
+  /*offers main madal-six*/
+  $('.modal-six-link').on('click', function (event){
+    event.preventDefault();
+
+    $('.offers-list').fadeOut();
+    $('.modal-six-overlay').fadeIn();
+  })
+  $('.offers-modal__close').on('click', function (event){
+    event.preventDefault();
+
+    $('.modal-six-overlay').fadeOut();
+    $('.offers-list').fadeIn();
+  });
+
+
+
 })
 
 /*google map*/
