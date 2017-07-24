@@ -106,7 +106,7 @@ $(function () {
   });
 
   /*slider gallery*/
-  /*slider-brands*/
+
   $('.js-gallery').slick({
     infinite: true,
     slidesToShow: 3,
@@ -143,6 +143,28 @@ $(function () {
     $('.js-gallery').slick("slickNext");
   });
 
+  /*js all brands*/
+
+  $('.js-all-brands').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: false,
+    autoplay: false,
+    autoplaySpeed: 5000,
+    fade: false
+  });
+  $(".js-slider-prev").on("click", function() {
+    $('.js-all-brands').slick("slickPrev");
+  });
+
+  $(".js-slider-next").on("click", function() {
+    $('.js-all-brands').slick("slickNext");
+  });
+
+
+
   /*form valid*/
   $('.footer-form').validate({
     rules: {
@@ -170,7 +192,67 @@ $(function () {
     }
   });
 
-  $('.offers-modal-form').validate({
+  $('.offers-modal-form-one').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+  $('.offers-modal-form-two').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+  $('.offers-modal-form-three').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+  $('.offers-modal-form-four').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+  $('.offers-modal-form-five').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+  $('.offers-modal-form-six').validate({
     rules: {
       phone: {
         required: true,

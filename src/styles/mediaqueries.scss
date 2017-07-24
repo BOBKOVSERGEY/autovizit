@@ -81,12 +81,33 @@
     }
   }
 
-  .main-menu {
-    position: absolute;
-    width: 100%;
+  .all-brands {
 
-    & .navbar-nav>li{
-      display: block;
+    &__item {
+      text-align: center;
+      & >div:nth-child(2) {
+        border-top: 0px dashed #cccccc;
+        border-bottom: 0px dashed #cccccc;
+      }
+    }
+
+    &__row {
+      display: flex;
+      flex-direction: column;
+
+      & >div:last-child {
+        //border-bottom: 0px dashed #ccc;
+      }
+    }
+    &__wrapper-img {
+      width: 100%;
+      position: relative;
+      padding: 20px 0;
+      border-right: 0px dashed #ccc;
+      border-left: 2px dashed #ccc;
+      border-right: 2px dashed #ccc;
+      border-bottom: 2px dashed #ccc;
+
     }
 
   }
@@ -119,9 +140,15 @@
   }
 
   .main-menu {
-
+    position: fixed;
     top: 0;
     margin-top: 0px;
+
+
+    & .navbar-nav>li{
+      display: block;
+    }
+
 
     & .nav > li.dropdown.open .dropdown-menu {
       display:table;
