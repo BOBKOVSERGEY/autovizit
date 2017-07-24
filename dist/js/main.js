@@ -4,6 +4,7 @@ $(function () {
   $(".input-mask").inputmask("+7(999)999-99-99");
   $(".form-service__input-mask").inputmask("+7(999)999-99-99");
   $(".offers-modal-form__input-mask").inputmask("+7(999)999-99-99");
+  $(".popup-form__input-mask").inputmask("+7(999)999-99-99");
 
   /* burger */
   var toggles = $(".navbar-toggle");
@@ -49,7 +50,7 @@ $(function () {
   $('.js-brands').slick({
     infinite: true,
     slidesToShow: 6,
-    slidesToScroll: 1,
+    slidesToScroll: 6,
     arrows: false,
     dots: false,
     autoplay: false,
@@ -60,7 +61,7 @@ $(function () {
         breakpoint: 1000,
         settings: {
           slidesToShow: 5,
-          slidesToScroll: 1
+          slidesToScroll: 5
         }
       },
 
@@ -68,21 +69,21 @@ $(function () {
         breakpoint: 900,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 1
+          slidesToScroll: 4
         }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1
+          slidesToScroll: 3
         }
       },
       {
         breakpoint: 500,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 2
         }
       },
 
@@ -203,6 +204,52 @@ $(function () {
       },
       phone: {
         required: "Введите ваш телефон"
+      }
+    }
+  });
+
+  $('.popup-form-form').validate({
+    rules: {
+      name: {
+        required: true,
+      },
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      name: {
+        required: "Введите Ваше имя"
+      },
+      phone: {
+        required: "Введите Ваш телефон"
+      }
+    }
+  });
+
+  $('.contacts-form__form').validate({
+    rules: {
+      name: {
+        required: true,
+      },
+      email: {
+        required: true,
+        email: true,
+      },
+      message: {
+        required: true,
+      }
+    },
+    messages: {
+      name: {
+        required: "Введите Ваше Имя"
+      },
+      email: {
+        required: "Введите Ваш email",
+        email: "Это не корректный email"
+      },
+      message: {
+        required: "Введите Ваше сообщение"
       }
     }
   });

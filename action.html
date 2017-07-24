@@ -50,7 +50,7 @@
               Московская область, 43-й км Минского шоссе, (23 км от МКАД)
             </div>
           </div>
-          <div class="col-sm-4 text-center">
+          <div class="col-sm-4 text-center hidden-xs">
             <a href="#" class="address-top__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
           </div>
         </div>
@@ -89,6 +89,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
+              <div class="hidden-lg hidden-md hidden-sm text-center">
+                <a href="#" class="main-menu__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
+              </div>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -216,21 +219,22 @@
     </article>
     <section class="contacts-form">
       <div class="container">
+        <h2 class="contacts-form__heading">Напишите нам</h2>
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <form action="" method="post">
+            <form action="" method="post" class="contacts-form__form">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 contacts-form__wrapper-input">
                   <div class="contacts-form__label-input">Имя*</div>
                   <input class="contacts-form__input" type="text" name="name">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 contacts-form__wrapper-input">
                   <div class="contacts-form__label-input">Адрес электронной почты*</div>
                   <input class="contacts-form__input" type="email" name="email">
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 contacts-form__wrapper-input">
                   <div class="contacts-form__label-input contacts-form__label-input_message">Ваше сообщение*</div>
                   <textarea class="contacts-form__textarea" name="message" id="" rows="7"></textarea>
                 </div>
@@ -277,6 +281,12 @@
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim illo labore officiis sapiente. Ab deserunt dolores ducimus exercitationem incidunt libero maxime nulla, optio sint sit soluta sunt. Ducimus, pariatur.</p>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim illo labore officiis sapiente. Ab deserunt dolores ducimus exercitationem incidunt libero maxime nulla, optio sint sit soluta sunt. Ducimus, pariatur.</p>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum dolor doloribus explicabo iste magnam maxime modi nemo quo sequi. At culpa cupiditate, distinctio dolorum labore minima nesciunt pariatur quo repellat sit soluta veniam vitae. Adipisci, aspernatur atque culpa dicta dolore doloremque eligendi eos excepturi facilis hic id impedit in incidunt inventore maiores mollitia nam nihil nostrum, perferendis quae reiciendis rem repellat sequi similique tenetur ullam vero voluptatibus? A cupiditate minima nemo odio provident suscipit. Architecto ea, esse et fugit obcaecati repudiandae tempora unde? Aliquid amet aperiam consectetur culpa cumque dolorem dolores doloribus eaque eos eum excepturi exercitationem fugiat ipsa minus neque porro quas qui repudiandae rerum sit sunt, tempore ullam veritatis vero voluptas. Earum, labore, soluta! Alias aliquam aspernatur assumenda beatae commodi cumque delectus deleniti distinctio doloribus ducimus eos est et eum eveniet excepturi, facilis illum ipsum iste magnam minus, molestiae natus nemo nesciunt obcaecati quae quisquam quo quos, reiciendis repudiandae sit soluta temporibus velit voluptates? Ab, alias animi asperiores, distinctio et ex labore maiores natus nisi porro praesentium quia recusandae rem velit voluptates. Accusantium animi enim expedita, fuga illum ipsum itaque iure, nam, natus perferendis quibusdam soluta? Autem facilis illum possimus quae quaerat! Corporis iusto necessitatibus saepe. Ab aspernatur at autem consequuntur cupiditate delectus dicta distinctio doloribus eaque earum error, est excepturi expedita harum illum inventore laboriosam maxime nisi non odio officia officiis porro possimus quae quas repellendus reprehenderit, repudiandae, rerum similique sunt unde ut veniam voluptatum? Eligendi eos, et fugiat harum illum inventore ipsa odio quas quo repellendus sed sit sunt tenetur. Architecto atque deleniti excepturi fugit laboriosam nulla reiciendis. Assumenda delectus dolores, dolorum enim error et excepturi labore laborum porro praesentium repellendus similique sint. A autem cum, cumque deleniti dolore dolores est et eum eveniet, expedita facilis harum ipsum laborum magnam maiores recusandae sapiente. Error facere fugiat iusto nihil nulla, placeat tempora vel voluptatem. Ad alias at consequatur distinctio dolorem, ea eius explicabo nesciunt nisi non omnis possimus quisquam quo reiciendis reprehenderit sequi similique sint sit? A deleniti dicta maiores mollitia numquam provident repellendus voluptatem. Ad ipsam modi neque officia placeat suscipit voluptatem? A eaque hic nemo nobis non, nostrum omnis porro, qui quo recusandae, repellendus soluta tenetur velit voluptas voluptates. Aspernatur, praesentium, sint? Consequatur esse facere fuga labore libero officiis repellat? Aut doloremque, ex excepturi fuga hic nemo praesentium quod repellat repellendus rerum temporibus vero voluptatum. Doloremque dolores ipsum minus necessitatibus perferendis quaerat tempora tenetur?</p>
+                            </div>
+                            <div class="offers-modal__block-form">
+                              <form action="" method="post" class="offers-modal-form">
+                                <div><input class="offers-modal-form__input-phone offers-modal-form__input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                                <div><input class="offers-modal-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -445,19 +455,23 @@
     </section>
   </footer>
   <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+  <div class="popup-form">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="popup-form__close"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+          <div class="modal-body">
+            <div class="popup-form__heading">Укажите имя и телефон</div>
+            <div class="popup-form__block-form">
+              <form action="" method="post" class="popup-form-form">
+                <div><input class="popup-form__input-name" name="name" autocomplete="off" type="text" placeholder="Ваше имя"></div>
+                <div><input class="popup-form__input-phone popup-form__input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                <div class="text-center"><input class="popup-form__input-submit" type="submit" value="Записаться на сервис"></div>
+              </form>
+            </div>
+            <p class="popup-form__agreement">Заполняя данную форму вы принимаете условия Соглашения об использовании сайта, в том числе в части <a
+              href="#">обработки и использования</a> персональных данных.</p>
+          </div>
         </div>
       </div>
     </div>

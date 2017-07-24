@@ -50,7 +50,7 @@
               Московская область, 43-й км Минского шоссе, (23 км от МКАД)
             </div>
           </div>
-          <div class="col-sm-4 text-center">
+          <div class="col-sm-4 text-center hidden-xs">
             <a href="#" class="address-top__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
           </div>
         </div>
@@ -83,211 +83,213 @@
         <nav class="navbar">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="hidden-lg hidden-md hidden-sm text-center">
+                  <a href="#" class="main-menu__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
+                </div>
+              </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="about.html">
-                    <div class="nav-icons__wrapper">
-                      <img src="dist/images/about.png" alt="">
-                    </div>
-                    <div class="nav-icons__links">О компании</div>
-                  </a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    <div class="nav-icons__wrapper">
-                      <img src="dist/images/service.png" alt="">
-                    </div>
-                    <div class="nav-icons__links">Сервис</div>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="service.html">Трансмиссия</a></li>
-                    <li><a href="#">Двигатель</a></li>
-                    <li><a href="#">Кузов</a></li>
-                    <li><a href="#">Подвеска</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    <div class="nav-icons__wrapper">
-                      <img src="dist/images/spareparts.png" alt="">
-                    </div>
-                    <div class="nav-icons__links">Запчасти</div>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    <div class="nav-icons__wrapper">
-                      <img src="dist/images/butter.png" alt="">
-                    </div>
-                    <div class="nav-icons__links">Масло</div>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    <div class="nav-icons__wrapper">
-                      <img src="dist/images/model.png" alt="">
-                    </div>
-                    <div class="nav-icons__links">Марки</div>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Мерседес</a></li>
-                    <li><a href="#">Шкода</a></li>
-                    <li><a href="marki.html">Ауди</a></li>
-                    <li><a href="#">Фолкс</a></li>
-                    <li><a href="#">Ниссан</a></li>
-                    <li><a href="#">Акура</a></li>
-                    <li><a href="#">Газ</a></li>
-                    <li><a href="#">Лада</a></li>
-                    <li><a href="#">Порше</a></li>
-                    <li><a href="#">Бугатти</a></li>
-                    <li><a href="#">Мазератти</a></li>
-                    <li><a href="#">Феррари</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="actions.html">
-                    <div class="nav-icons__wrapper">
-                      <img src="dist/images/stock.png" alt="">
-                    </div>
-                    <div class="nav-icons__links">Акции</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="contacts.html">
-                    <div class="nav-icons__wrapper">
-                      <img src="dist/images/contacts.png" alt="">
-                    </div>
-                    <div class="nav-icons__links">Контакты</div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <section class="header-slider">
-        <div class="slider js-slider">
-          <div class="slider__item" style="background-image: url('dist/images/slide1.jpg');">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="slider__pos">
-                    <div class="slider__title">
-                      Официальный прием в неофициальной обстановке
-                    </div>
-                    <div class="slider__form">
-                      <form action="" method="post" class="slider-form">
-                        <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
-                        <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
-                      </form>
-                    </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="about.html">
+                  <div class="nav-icons__wrapper">
+                    <img src="dist/images/about.png" alt="">
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="slider__item" style="background-image: url('dist/images/slide2.jpg');">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="slider__pos">
-                    <div class="slider__title">
-                      Очистка системы кондиционирования
-                    </div>
-                    <div class="slider__form">
-                      <form action="" method="post" class="slider-form">
-                        <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
-                        <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
-                      </form>
-                    </div>
+                  <div class="nav-icons__links">О компании</div>
+                </a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <div class="nav-icons__wrapper">
+                    <img src="dist/images/service.png" alt="">
                   </div>
-                </div>
-              </div>
-            </div>
+                  <div class="nav-icons__links">Сервис</div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="service.html">Трансмиссия</a></li>
+                  <li><a href="#">Двигатель</a></li>
+                  <li><a href="#">Кузов</a></li>
+                  <li><a href="#">Подвеска</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <div class="nav-icons__wrapper">
+                    <img src="dist/images/spareparts.png" alt="">
+                  </div>
+                  <div class="nav-icons__links">Запчасти</div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <div class="nav-icons__wrapper">
+                    <img src="dist/images/butter.png" alt="">
+                  </div>
+                  <div class="nav-icons__links">Масло</div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <div class="nav-icons__wrapper">
+                    <img src="dist/images/model.png" alt="">
+                  </div>
+                  <div class="nav-icons__links">Марки</div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Мерседес</a></li>
+                  <li><a href="#">Шкода</a></li>
+                  <li><a href="marki.html">Ауди</a></li>
+                  <li><a href="#">Фолкс</a></li>
+                  <li><a href="#">Ниссан</a></li>
+                  <li><a href="#">Акура</a></li>
+                  <li><a href="#">Газ</a></li>
+                  <li><a href="#">Лада</a></li>
+                  <li><a href="#">Порше</a></li>
+                  <li><a href="#">Бугатти</a></li>
+                  <li><a href="#">Мазератти</a></li>
+                  <li><a href="#">Феррари</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="actions.html">
+                  <div class="nav-icons__wrapper">
+                    <img src="dist/images/stock.png" alt="">
+                  </div>
+                  <div class="nav-icons__links">Акции</div>
+                </a>
+              </li>
+              <li>
+                <a href="contacts.html">
+                  <div class="nav-icons__wrapper">
+                    <img src="dist/images/contacts.png" alt="">
+                  </div>
+                  <div class="nav-icons__links">Контакты</div>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="slider__item" style="background-image: url('dist/images/slide3.jpg');">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="slider__pos">
-                    <div class="slider__title">
-                      Мойка авто кузов и ковры
-                    </div>
-                    <div class="slider__form">
-                      <form action="" method="post" class="slider-form">
-                        <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
-                        <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
-                      </form>
-                    </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <section class="header-slider">
+      <div class="slider js-slider">
+        <div class="slider__item" style="background-image: url('dist/images/slide1.jpg');">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slider__pos">
+                  <div class="slider__title">
+                    Официальный прием в неофициальной обстановке
+                  </div>
+                  <div class="slider__form">
+                    <form action="" method="post" class="slider-form">
+                      <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                      <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-    </section>
-  </header>
-  <section class="offers">
-    <div class="container">
-      <div class="offers-list">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="offers-list__item" style="background-image: url('dist/images/car1.jpg');">
-              <a class="offers-list__link" href="#" data-toggle="modal" data-target=".bs-example-modal-lg">
-                <div class="offers-list__bg">
-                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+        <div class="slider__item" style="background-image: url('dist/images/slide2.jpg');">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slider__pos">
+                  <div class="slider__title">
+                    Очистка системы кондиционирования
+                  </div>
+                  <div class="slider__form">
+                    <form action="" method="post" class="slider-form">
+                      <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                      <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                    </form>
+                  </div>
                 </div>
-                <div class="offers-list__text">
-                  <div class="offers-list__heading">Очистка коленых дисков</div>
-                  <div class="offers-list__price">за 1795 рублей</div>
-                </div>
-              </a>
+              </div>
             </div>
-            <div class="offers-modal">
-              <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                    <div class="offers-modal__close"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                    <div class="modal-body">
-                      <div class="row">
-                        <div class="col-md-4 text-center">
-                          <div class="offers-modal__bg">
-                           <img class="offers-modal__img" src="dist/images/car1.jpg" alt="">
-                          </div>
+          </div>
+        </div>
+        <div class="slider__item" style="background-image: url('dist/images/slide3.jpg');">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slider__pos">
+                  <div class="slider__title">
+                    Мойка авто кузов и ковры
+                  </div>
+                  <div class="slider__form">
+                    <form action="" method="post" class="slider-form">
+                      <div><input class="slider-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                      <div><input class="slider-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+</header>
+<section class="offers">
+  <div class="container">
+    <div class="offers-list">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="offers-list__item" style="background-image: url('dist/images/car1.jpg');">
+            <a class="offers-list__link" href="#" data-toggle="modal" data-target=".bs-example-modal-lg">
+              <div class="offers-list__bg">
+                <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+              </div>
+              <div class="offers-list__text">
+                <div class="offers-list__heading">Очистка коленых дисков</div>
+                <div class="offers-list__price">за 1795 рублей</div>
+              </div>
+            </a>
+          </div>
+          <div class="offers-modal">
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="offers-modal__close"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-4 text-center">
+                        <div class="offers-modal__bg">
+                         <img class="offers-modal__img" src="dist/images/car1.jpg" alt="">
                         </div>
-                        <div class="col-md-8">
-                          <h2 class="offers-modal__heading">Удовольствие за рулем в чистом виде</h2>
-                          <div class="offers-modal__text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim illo labore officiis sapiente. Ab deserunt dolores ducimus exercitationem incidunt libero maxime nulla, optio sint sit soluta sunt. Ducimus, pariatur.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim illo labore officiis sapiente. Ab deserunt dolores ducimus exercitationem incidunt libero maxime nulla, optio sint sit soluta sunt. Ducimus, pariatur.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum dolor doloribus explicabo iste magnam maxime modi nemo quo sequi. At culpa cupiditate, distinctio dolorum labore minima nesciunt pariatur quo repellat sit soluta veniam vitae. Adipisci, aspernatur atque culpa dicta dolore doloremque eligendi eos excepturi facilis hic id impedit in incidunt inventore maiores mollitia nam nihil nostrum, perferendis quae reiciendis rem repellat sequi similique tenetur ullam vero voluptatibus? A cupiditate minima nemo odio provident suscipit. Architecto ea, esse et fugit obcaecati repudiandae tempora unde? Aliquid amet aperiam consectetur culpa cumque dolorem dolores doloribus eaque eos eum excepturi exercitationem fugiat ipsa minus neque porro quas qui repudiandae rerum sit sunt, tempore ullam veritatis vero voluptas. Earum, labore, soluta! Alias aliquam aspernatur assumenda beatae commodi cumque delectus deleniti distinctio doloribus ducimus eos est et eum eveniet excepturi, facilis illum ipsum iste magnam minus, molestiae natus nemo nesciunt obcaecati quae quisquam quo quos, reiciendis repudiandae sit soluta temporibus velit voluptates? Ab, alias animi asperiores, distinctio et ex labore maiores natus nisi porro praesentium quia recusandae rem velit voluptates. Accusantium animi enim expedita, fuga illum ipsum itaque iure, nam, natus perferendis quibusdam soluta? Autem facilis illum possimus quae quaerat! Corporis iusto necessitatibus saepe. Ab aspernatur at autem consequuntur cupiditate delectus dicta distinctio doloribus eaque earum error, est excepturi expedita harum illum inventore laboriosam maxime nisi non odio officia officiis porro possimus quae quas repellendus reprehenderit, repudiandae, rerum similique sunt unde ut veniam voluptatum? Eligendi eos, et fugiat harum illum inventore ipsa odio quas quo repellendus sed sit sunt tenetur. Architecto atque deleniti excepturi fugit laboriosam nulla reiciendis. Assumenda delectus dolores, dolorum enim error et excepturi labore laborum porro praesentium repellendus similique sint. A autem cum, cumque deleniti dolore dolores est et eum eveniet, expedita facilis harum ipsum laborum magnam maiores recusandae sapiente. Error facere fugiat iusto nihil nulla, placeat tempora vel voluptatem. Ad alias at consequatur distinctio dolorem, ea eius explicabo nesciunt nisi non omnis possimus quisquam quo reiciendis reprehenderit sequi similique sint sit? A deleniti dicta maiores mollitia numquam provident repellendus voluptatem. Ad ipsam modi neque officia placeat suscipit voluptatem? A eaque hic nemo nobis non, nostrum omnis porro, qui quo recusandae, repellendus soluta tenetur velit voluptas voluptates. Aspernatur, praesentium, sint? Consequatur esse facere fuga labore libero officiis repellat? Aut doloremque, ex excepturi fuga hic nemo praesentium quod repellat repellendus rerum temporibus vero voluptatum. Doloremque dolores ipsum minus necessitatibus perferendis quaerat tempora tenetur?</p>
-                          </div>
-                          <div class="offers-modal__block-form">
-                            <form action="" method="post" class="offers-modal-form">
-                              <div><input class="offers-modal-form__input-phone offers-modal-form__input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
-                              <div><input class="offers-modal-form__input-submit" type="submit" value="Записаться на сервис"></div>
-                            </form>
-                          </div>
+                      </div>
+                      <div class="col-md-8">
+                        <h2 class="offers-modal__heading">Удовольствие за рулем в чистом виде</h2>
+                        <div class="offers-modal__text">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim illo labore officiis sapiente. Ab deserunt dolores ducimus exercitationem incidunt libero maxime nulla, optio sint sit soluta sunt. Ducimus, pariatur.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim illo labore officiis sapiente. Ab deserunt dolores ducimus exercitationem incidunt libero maxime nulla, optio sint sit soluta sunt. Ducimus, pariatur.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum dolor doloribus explicabo iste magnam maxime modi nemo quo sequi. At culpa cupiditate, distinctio dolorum labore minima nesciunt pariatur quo repellat sit soluta veniam vitae. Adipisci, aspernatur atque culpa dicta dolore doloremque eligendi eos excepturi facilis hic id impedit in incidunt inventore maiores mollitia nam nihil nostrum, perferendis quae reiciendis rem repellat sequi similique tenetur ullam vero voluptatibus? A cupiditate minima nemo odio provident suscipit. Architecto ea, esse et fugit obcaecati repudiandae tempora unde? Aliquid amet aperiam consectetur culpa cumque dolorem dolores doloribus eaque eos eum excepturi exercitationem fugiat ipsa minus neque porro quas qui repudiandae rerum sit sunt, tempore ullam veritatis vero voluptas. Earum, labore, soluta! Alias aliquam aspernatur assumenda beatae commodi cumque delectus deleniti distinctio doloribus ducimus eos est et eum eveniet excepturi, facilis illum ipsum iste magnam minus, molestiae natus nemo nesciunt obcaecati quae quisquam quo quos, reiciendis repudiandae sit soluta temporibus velit voluptates? Ab, alias animi asperiores, distinctio et ex labore maiores natus nisi porro praesentium quia recusandae rem velit voluptates. Accusantium animi enim expedita, fuga illum ipsum itaque iure, nam, natus perferendis quibusdam soluta? Autem facilis illum possimus quae quaerat! Corporis iusto necessitatibus saepe. Ab aspernatur at autem consequuntur cupiditate delectus dicta distinctio doloribus eaque earum error, est excepturi expedita harum illum inventore laboriosam maxime nisi non odio officia officiis porro possimus quae quas repellendus reprehenderit, repudiandae, rerum similique sunt unde ut veniam voluptatum? Eligendi eos, et fugiat harum illum inventore ipsa odio quas quo repellendus sed sit sunt tenetur. Architecto atque deleniti excepturi fugit laboriosam nulla reiciendis. Assumenda delectus dolores, dolorum enim error et excepturi labore laborum porro praesentium repellendus similique sint. A autem cum, cumque deleniti dolore dolores est et eum eveniet, expedita facilis harum ipsum laborum magnam maiores recusandae sapiente. Error facere fugiat iusto nihil nulla, placeat tempora vel voluptatem. Ad alias at consequatur distinctio dolorem, ea eius explicabo nesciunt nisi non omnis possimus quisquam quo reiciendis reprehenderit sequi similique sint sit? A deleniti dicta maiores mollitia numquam provident repellendus voluptatem. Ad ipsam modi neque officia placeat suscipit voluptatem? A eaque hic nemo nobis non, nostrum omnis porro, qui quo recusandae, repellendus soluta tenetur velit voluptas voluptates. Aspernatur, praesentium, sint? Consequatur esse facere fuga labore libero officiis repellat? Aut doloremque, ex excepturi fuga hic nemo praesentium quod repellat repellendus rerum temporibus vero voluptatum. Doloremque dolores ipsum minus necessitatibus perferendis quaerat tempora tenetur?</p>
+                        </div>
+                        <div class="offers-modal__block-form">
+                          <form action="" method="post" class="offers-modal-form">
+                            <div><input class="offers-modal-form__input-phone offers-modal-form__input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                            <div><input class="offers-modal-form__input-submit" type="submit" value="Записаться на сервис"></div>
+                          </form>
                         </div>
                       </div>
                     </div>
@@ -296,265 +298,266 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="offers-list__item" style="background-image: url('dist/images/car2.jpg');">
-              <a class="offers-list__link" href="#">
-                <div class="offers-list__bg">
-                  <div class="offers-list__hover-text">Обслуживание и заправка кондиционеров</div>
-                </div>
-                <div class="offers-list__text">
-                  <div class="offers-list__heading">Заправка кондиционеров</div>
-                  <div class="offers-list__price">за 1510 рублей</div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="offers-list__item" style="background-image: url('dist/images/car3.jpg');">
-              <a class="offers-list__link" href="#">
-                <div class="offers-list__bg">
-                  <div class="offers-list__hover-text">Любые размеры</div>
-                </div>
-                <div class="offers-list__text">
-                  <div class="offers-list__heading">Шиномонтаж</div>
-                  <div class="offers-list__price">за 1144 рублей</div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="offers-list__item" style="background-image: url('dist/images/car4.jpg');">
-              <a class="offers-list__link" href="#">
-                <div class="offers-list__bg">
-                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
-                </div>
-                <div class="offers-list__text">
-                  <div class="offers-list__heading">Мойка авто</div>
-                  <div class="offers-list__price">за 440 рублей</div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="offers-list__item" style="background-image: url('dist/images/car5.jpg');">
-              <a class="offers-list__link" href="#">
-                <div class="offers-list__bg">
-                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
-                </div>
-                <div class="offers-list__text">
-                  <div class="offers-list__heading">Диагностика авто</div>
-                  <div class="offers-list__price">за 13521 рублей</div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="offers-list__item" style="background-image: url('dist/images/car6.jpg');">
-              <a class="offers-list__link" href="#">
-                <div class="offers-list__bg">
-                  <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
-                </div>
-                <div class="offers-list__text">
-                  <div class="offers-list__heading">Системы сигнализации</div>
-                  <div class="offers-list__price">за 13440 рублей</div>
-                </div>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="about-company-text">
-    <div class="container">
-      <p>Автотехцентр «Авто-Визит» успешно проводит сервисное обслуживание и ремонт автомобилей Audi, BMW, Mercedes, Volkswagen, Skoda, Opel, Chevrolet, Volvo уже более 10 лет.</p>
-      <p>К услугам наших клиентов:</p>
-      <ul class="content-list">
-        <li class="content-list__item">Сервис в день обращения</li>
-        <li class="content-list__item">Высококвалифицированный персонал, прошедший обучение в учебных центрах крупнейших автоконцернов</li>
-        <li class="content-list__item">Полное сервисное обслуживание автомобилей</li>
-        <li class="content-list__item">Диагностическое и ремонтное оборудование последнего поколения</li>
-        <li class="content-list__item">Большой ассортимент оригинальных запчастей и аксессуаров на складе и под заказ</li>
-        <li class="content-list__item">Возможность присутствия в ремонтном цехе</li>
-        <li class="content-list__item">Бесплатная мойка и уборка салона</li>
-        <li class="content-list__item">Услуги аренды автомобиля на время ремонта и вызов такси</li>
-        <li class="content-list__item">Комфортная зона ожидания</li>
-        <li class="content-list__item">Бесплатный Wi-Fi</li>
-        <li class="content-list__item">Оплата банковскими картами</li>
-      </ul>
-    </div>
-  </section>
-  <section class="slider-brands text-center">
-
-    <div class="brands js-brands">
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/shevrole.png" alt="">
-        </div>
-      </div>
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/vw.png" alt="">
-        </div>
-      </div>
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/bmw.png" alt="">
-        </div>
-      </div>
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/volvo.png" alt="">
-        </div>
-      </div>
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/mercedec.png" alt="">
-        </div>
-      </div>
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/audi.png" alt="">
-        </div>
-      </div>
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/opel.png" alt="">
-        </div>
-      </div>
-      <div class="brands__item">
-        <div class="brands__img">
-          <img src="dist/images/shkoda.png" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="brands__arrow">
-      <button class="slider-arrow prev js-slider-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-      <button class="slider-arrow next js-slider-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-    </div>
-  </section>
-  <section class="map-dot">
-    <div class="map_container" id="map_container"></div>
-  </section>
-  <footer>
-    <section class="footer-menu">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-
-              <a class="footer-menu__heading" href="#">О компании</a>
-
-            <ul class="footer-menu__company-details">
-              <li>ООО «Автовизит»</li>
-              <li>ИНН 1234567889</li>
-              <li>КПП 123456</li>
-              <li>ОГРН 123456789</li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-
-            <a class="footer-menu__heading" href="#">Сервис</a>
-
-            <ul class="footer-menu__links">
-              <li><a href="#">Трансмиссия</a></li>
-              <li><a href="#">Двигатель</a></li>
-              <li><a href="#">Кузов</a></li>
-              <li><a href="#">Подвеска</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-
-            <a class="footer-menu__heading" href="#">Запчасти</a>
-
-            <ul class="footer-menu__links">
-              <li><a href="#">Подбор запчастей</a></li>
-              <li><a href="#">Заказать запчасти</a></li>
-              <li><a href="#">Запчасти на TOYOTA</a></li>
-              <li><a href="#">Запчасти на BMW</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-
-            <a class="footer-menu__heading" href="#">Масло</a>
-
-            <ul class="footer-menu__links">
-              <li><a href="#">Подбор моторного масла</a></li>
-              <li><a href="#">Заказать маторное масло</a></li>
-              <li><a href="#">Маторное масло для TOYOTA</a></li>
-              <li><a href="#">Моторное масло для LEXUS</a></li>
-            </ul>
-          </div>
-          <div class="col-md-1">
-
-            <a class="footer-menu__heading" href="#">Марки</a>
-
-            <ul class="footer-menu__links">
-              <li><a href="#">TOYOTA</a></li>
-              <li><a href="#">BMW</a></li>
-              <li><a href="#">NISSAN</a></li>
-              <li><a href="#">Все марки</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-
-            <a class="footer-menu__heading" href="#">Акции</a>
-
-            <ul class="footer-menu__links">
-              <li><a href="#">Специальные цены на предустановку пусковых двигателей</a></li>
-              <li><a href="#">Выгодная мойка радиатора охлаждения</a></li>
-              <li><a href="#">Все акции</a></li>
-            </ul>
-          </div>
-          <div class="col-md-1">
-
-            <a class="footer-menu__heading" href="#">Контакты</a>
-
-            <ul class="footer-menu__company-details">
-              <li>МО, МИНСКОЕ ШОССЕ,
-                КРАСНОЗНАМЕНСК</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="footer-elements">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <a href="#">
-              <div class="footer-elements__logo">
-                Авто<span class="footer-elements__logo_white">визит</span>
+        <div class="col-sm-6 col-md-4">
+          <div class="offers-list__item" style="background-image: url('dist/images/car2.jpg');">
+            <a class="offers-list__link" href="#">
+              <div class="offers-list__bg">
+                <div class="offers-list__hover-text">Обслуживание и заправка кондиционеров</div>
               </div>
-              <div class="footer-elements__sub-logo">
-                Автотехцентр
+              <div class="offers-list__text">
+                <div class="offers-list__heading">Заправка кондиционеров</div>
+                <div class="offers-list__price">за 1510 рублей</div>
               </div>
             </a>
-            <div class="footer-elements__phone">
-              <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+74957757779">+7 (495) 775-77-79</a>
-            </div>
           </div>
-          <div class="col-md-4">
-            <div class="footer-elements__address">
-              Московская область,
-              43-й км Минского шоссе, (23 км от МКАД)
-            </div>
-            <div class="footer-elements__work-hours">
-              с 9 до 21 ч./ 7 дней в неделю
-            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="offers-list__item" style="background-image: url('dist/images/car3.jpg');">
+            <a class="offers-list__link" href="#">
+              <div class="offers-list__bg">
+                <div class="offers-list__hover-text">Любые размеры</div>
+              </div>
+              <div class="offers-list__text">
+                <div class="offers-list__heading">Шиномонтаж</div>
+                <div class="offers-list__price">за 1144 рублей</div>
+              </div>
+            </a>
           </div>
-          <div class="col-md-4">
-            <div class="footer-elements__form">
-              <form action="" method="post" class="footer-form">
-                <div><input class="footer-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
-                <div><input class="footer-form__input-submit" type="submit" value="Записаться на сервис"></div>
-              </form>
-            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="offers-list__item" style="background-image: url('dist/images/car4.jpg');">
+            <a class="offers-list__link" href="#">
+              <div class="offers-list__bg">
+                <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+              </div>
+              <div class="offers-list__text">
+                <div class="offers-list__heading">Мойка авто</div>
+                <div class="offers-list__price">за 440 рублей</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="offers-list__item" style="background-image: url('dist/images/car5.jpg');">
+            <a class="offers-list__link" href="#">
+              <div class="offers-list__bg">
+                <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+              </div>
+              <div class="offers-list__text">
+                <div class="offers-list__heading">Диагностика авто</div>
+                <div class="offers-list__price">за 13521 рублей</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="offers-list__item" style="background-image: url('dist/images/car6.jpg');">
+            <a class="offers-list__link" href="#">
+              <div class="offers-list__bg">
+                <div class="offers-list__hover-text">Удовольствие за рулем в чистом виде</div>
+              </div>
+              <div class="offers-list__text">
+                <div class="offers-list__heading">Системы сигнализации</div>
+                <div class="offers-list__price">за 13440 рублей</div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </section>
-  </footer>
-  <!-- Modal -->
+    </div>
+  </div>
+</section>
+<section class="about-company-text">
+  <div class="container">
+    <p>Автотехцентр «Авто-Визит» успешно проводит сервисное обслуживание и ремонт автомобилей Audi, BMW, Mercedes, Volkswagen, Skoda, Opel, Chevrolet, Volvo уже более 10 лет.</p>
+    <p>К услугам наших клиентов:</p>
+    <ul class="content-list">
+      <li class="content-list__item">Сервис в день обращения</li>
+      <li class="content-list__item">Высококвалифицированный персонал, прошедший обучение в учебных центрах крупнейших автоконцернов</li>
+      <li class="content-list__item">Полное сервисное обслуживание автомобилей</li>
+      <li class="content-list__item">Диагностическое и ремонтное оборудование последнего поколения</li>
+      <li class="content-list__item">Большой ассортимент оригинальных запчастей и аксессуаров на складе и под заказ</li>
+      <li class="content-list__item">Возможность присутствия в ремонтном цехе</li>
+      <li class="content-list__item">Бесплатная мойка и уборка салона</li>
+      <li class="content-list__item">Услуги аренды автомобиля на время ремонта и вызов такси</li>
+      <li class="content-list__item">Комфортная зона ожидания</li>
+      <li class="content-list__item">Бесплатный Wi-Fi</li>
+      <li class="content-list__item">Оплата банковскими картами</li>
+    </ul>
+  </div>
+</section>
+<section class="slider-brands text-center">
+
+  <div class="brands js-brands">
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/shevrole.png" alt="">
+      </div>
+    </div>
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/vw.png" alt="">
+      </div>
+    </div>
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/bmw.png" alt="">
+      </div>
+    </div>
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/volvo.png" alt="">
+      </div>
+    </div>
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/mercedec.png" alt="">
+      </div>
+    </div>
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/audi.png" alt="">
+      </div>
+    </div>
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/opel.png" alt="">
+      </div>
+    </div>
+    <div class="brands__item">
+      <div class="brands__img">
+        <img src="dist/images/shkoda.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!--<div class="brands__arrow">
+    <button class="slider-arrow prev js-slider-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+    <button class="slider-arrow next js-slider-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+  </div>-->
+</section>
+<section class="map-dot">
+  <div class="map_container" id="map_container"></div>
+</section>
+<footer>
+  <section class="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+
+            <a class="footer-menu__heading" href="#">О компании</a>
+
+          <ul class="footer-menu__company-details">
+            <li>ООО «Автовизит»</li>
+            <li>ИНН 1234567889</li>
+            <li>КПП 123456</li>
+            <li>ОГРН 123456789</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+
+          <a class="footer-menu__heading" href="#">Сервис</a>
+
+          <ul class="footer-menu__links">
+            <li><a href="#">Трансмиссия</a></li>
+            <li><a href="#">Двигатель</a></li>
+            <li><a href="#">Кузов</a></li>
+            <li><a href="#">Подвеска</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+
+          <a class="footer-menu__heading" href="#">Запчасти</a>
+
+          <ul class="footer-menu__links">
+            <li><a href="#">Подбор запчастей</a></li>
+            <li><a href="#">Заказать запчасти</a></li>
+            <li><a href="#">Запчасти на TOYOTA</a></li>
+            <li><a href="#">Запчасти на BMW</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+
+          <a class="footer-menu__heading" href="#">Масло</a>
+
+          <ul class="footer-menu__links">
+            <li><a href="#">Подбор моторного масла</a></li>
+            <li><a href="#">Заказать маторное масло</a></li>
+            <li><a href="#">Маторное масло для TOYOTA</a></li>
+            <li><a href="#">Моторное масло для LEXUS</a></li>
+          </ul>
+        </div>
+        <div class="col-md-1">
+
+          <a class="footer-menu__heading" href="#">Марки</a>
+
+          <ul class="footer-menu__links">
+            <li><a href="#">TOYOTA</a></li>
+            <li><a href="#">BMW</a></li>
+            <li><a href="#">NISSAN</a></li>
+            <li><a href="#">Все марки</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+
+          <a class="footer-menu__heading" href="#">Акции</a>
+
+          <ul class="footer-menu__links">
+            <li><a href="#">Специальные цены на предустановку пусковых двигателей</a></li>
+            <li><a href="#">Выгодная мойка радиатора охлаждения</a></li>
+            <li><a href="#">Все акции</a></li>
+          </ul>
+        </div>
+        <div class="col-md-1">
+
+          <a class="footer-menu__heading" href="#">Контакты</a>
+
+          <ul class="footer-menu__company-details">
+            <li>МО, МИНСКОЕ ШОССЕ,
+              КРАСНОЗНАМЕНСК</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer-elements">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#">
+            <div class="footer-elements__logo">
+              Авто<span class="footer-elements__logo_white">визит</span>
+            </div>
+            <div class="footer-elements__sub-logo">
+              Автотехцентр
+            </div>
+          </a>
+          <div class="footer-elements__phone">
+            <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+74957757779">+7 (495) 775-77-79</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-elements__address">
+            Московская область,
+            43-й км Минского шоссе, (23 км от МКАД)
+          </div>
+          <div class="footer-elements__work-hours">
+            с 9 до 21 ч./ 7 дней в неделю
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-elements__form">
+            <form action="" method="post" class="footer-form">
+              <div><input class="footer-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+              <div><input class="footer-form__input-submit" type="submit" value="Записаться на сервис"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+<!-- Modal -->
   <div class="popup-form">
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
@@ -564,7 +567,7 @@
             <div class="popup-form__heading">Укажите имя и телефон</div>
             <div class="popup-form__block-form">
               <form action="" method="post" class="popup-form-form">
-                <div><input class="popup-form__input-name" name="phone" autocomplete="off" type="text" placeholder="Ваше имя"></div>
+                <div><input class="popup-form__input-name" name="name" autocomplete="off" type="text" placeholder="Ваше имя"></div>
                 <div><input class="popup-form__input-phone popup-form__input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
                 <div class="text-center"><input class="popup-form__input-submit" type="submit" value="Записаться на сервис"></div>
               </form>

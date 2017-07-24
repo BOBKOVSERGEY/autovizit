@@ -69,6 +69,9 @@
 }
 
 @media only screen and (max-width : 768px) {
+  .header-elements {
+    padding-bottom: 25px;
+  }
   .address-top {
     text-align: center;
     margin-top: 50px;
@@ -212,6 +215,18 @@
   .offers-modal {
     &__block-form {
       width: 250px;
+    }
+  }
+
+  .popup-form {
+    &__input-submit {
+      width: 220px;
+      border: 0;
+      background: #d62f26;
+      font-family: RobotoRegular;
+      height: 55px;
+      color: #fff;
+      margin-top: 2px;
     }
   }
 }

@@ -23,6 +23,7 @@
       text-decoration: none;
       color: #ccc;
       border-color: #ccc;
+      outline: none;
     }
   }
 
@@ -148,6 +149,28 @@
   }
   & .navbar-toggle .icon-bar {
     background-color: #D62F26;
+  }
+
+  &__btn {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    padding: 3px 20px;
+    border: 1px solid #fff;
+    transition: all .3s;
+    font-size: 15px;
+    margin: 11px;
+    outline: none;
+    &:hover {
+      text-decoration: none;
+      color: #ccc;
+    }
+    &:focus {
+      text-decoration: none;
+      color: #ccc;
+      outline: none;
+      border-color: #ccc;
+    }
   }
 
 

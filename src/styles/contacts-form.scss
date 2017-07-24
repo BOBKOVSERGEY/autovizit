@@ -20,6 +20,17 @@
     width: 100%;
     height: 41px;
   }
+  &__wrapper-input {
+    position: relative;
+    & label {
+      position: absolute;
+      color: #d62f26;
+      font-size: 14px;
+      right: 30px;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+  }
   &__textarea {
     border: 1px solid #939393;
     width: 100%;
@@ -35,4 +46,5 @@
       background: #ddd;
     }
   }
+
 }
