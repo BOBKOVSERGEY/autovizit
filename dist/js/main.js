@@ -179,7 +179,36 @@ $(function () {
     }
   });
 
+  /*slide form*/
   $('.slider-form').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+
+  /*slide form two*/
+  $('.slider-form-two').validate({
+    rules: {
+      phone: {
+        required: true,
+      }
+    },
+    messages: {
+      phone: {
+        required: "Введите Ваше телефон"
+      }
+    }
+  });
+
+  /*slide form three*/
+  $('.slider-form-three').validate({
     rules: {
       phone: {
         required: true,
