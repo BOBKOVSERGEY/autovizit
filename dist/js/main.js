@@ -430,7 +430,29 @@ $(function () {
   /*reset form*/
   $('.reset-form').on('click', function () {
     $(".form-service__form")[0].reset();
+    $('.form-service__input').css({
+      'background':'#fff'
+    });
   });
+
+  /*bg input form  service*/
+
+  $('.form-service__input').on('click', function () {
+    $(this).css({
+      'background':'#ebeaea'
+    });
+  });
+
+  /*show button service*/
+  $('.form-service__input_phone').on('keyup', function () {
+    var valInputPhone = $(this).val();
+    if (valInputPhone.length == 16) {
+      $('.form-service__submit').slideDown();
+    } else {
+      $('.form-service__submit').slideUp();
+    }
+  })
+
 
   /*offers main madal-one*/
   $('.modal-one-link').on('click', function (event){

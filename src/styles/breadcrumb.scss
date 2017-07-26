@@ -11,4 +11,11 @@
     color: #ccc;
     content: "/\00a0";
   }
+  & .breadcrumb li a{
+    color: #706f6f;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
