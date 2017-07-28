@@ -70,17 +70,23 @@
 
   &__dropdown-brands {
     position: absolute;
+    font-size: 24px;
     text-align: left;
     background: #fff;
     border: 1px solid #939393;
     border-top: 0;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     width: 100%;
     display: none;
     z-index: 999;
+
+    & img {
+      width: 24px;
+    }
   }
   &__dropdown-work {
     position: absolute;
+    font-size: 24px;
     text-align: left;
     background: #fff;
     border: 1px solid #939393;
@@ -107,7 +113,7 @@
   }
 }
 .dropdown-brands-item {
-  margin: 10px 0;
+  margin: 0px 0 20px 0;
   &:hover {
     color: #d62f26;
     cursor: pointer;

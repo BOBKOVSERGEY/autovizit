@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dist/css/fonts.css">
+  <link rel="stylesheet" href="dist/css/slick.css?v=27">
+  <link rel="stylesheet" href="dist/css/slick-theme.css?v=27">
+  <link rel="stylesheet" href="dist/css/main.css?v=27">
+
+  <!-- Favicons for all devices -->
+  <link rel="apple-touch-icon" sizes="57x57" href="dist/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="dist/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="dist/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="dist/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="dist/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="dist/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="dist/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="dist/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="dist/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="dist/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="dist/images/favicons/manifest.json">
+  <link rel="mask-icon" href="dist/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="dist/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Document</title>
+
+</head>
+<body>
+  <header>
+    <section class="address-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="address-top__desc">
+              Московская область, 43-й км Минского шоссе, (23 км от МКАД)
+            </div>
+          </div>
+          <div class="col-sm-4 text-center hidden-xs">
+            <a href="#" class="address-top__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header-elements">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="logo-header">
+              <div class="header-elements__logo">
+                Авто<span class="header-elements__logo_white">визит</span>
+              </div>
+              <div class="header-elements__sub-logo">
+                Автотехцентр
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 header-elements__block-phone">
+            <div class="header-elements__phone text-center">
+              <a href="tel:+74957757779">+7 (495) 775-77-79</a>
+              <div class="header-elements__work-hours">с 9 до 21 ч./ 7 дней в неделю</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header-menu">
+      <div class="main-menu">
+        <nav class="navbar">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="hidden-lg hidden-md hidden-sm text-center">
+                <a href="#" class="main-menu__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
+              </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="about.html">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/about.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">О компании</div>
+                  </a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/service.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Сервис</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Трансмиссия</a></li>
+                    <li><a href="#">Двигатель</a></li>
+                    <li><a href="#">Кузов</a></li>
+                    <li><a href="#">Подвеска</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/spareparts.png" alt="">
+                    </div>
+                    <div class="nav-icons__links nav-icons__links_active">Запчасти</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/butter.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Масло</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/model.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Марки</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Мерседес</a></li>
+                    <li><a href="#">Шкода</a></li>
+                    <li><a href="#">Ауди</a></li>
+                    <li><a href="#">Фолкс</a></li>
+                    <li><a href="#">Ниссан</a></li>
+                    <li><a href="#">Акура</a></li>
+                    <li><a href="#">Газ</a></li>
+                    <li><a href="#">Лада</a></li>
+                    <li><a href="#">Порше</a></li>
+                    <li><a href="#">Бугатти</a></li>
+                    <li><a href="#">Мазератти</a></li>
+                    <li><a href="#">Феррари</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/stock.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Акции</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="contacts.html">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/contacts.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Контакты</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <section class="content">
+    <section class="form-parts">
+      <div class="container">
+        <h2 class="form-parts__heading">Форма подбора запчастей</h2>
+        <div class="row">
+          <div class="col-md-12 form-parts__block">
+            <form action="" class="form-parts__form" method="post">
+              <div class="reset-form-parts">
+                &times; Сбросить
+              </div>
+              <div class="form-parts__wrapper-input">
+                <div class="form-parts__input-item">
+                  <input class="form-parts__input form-parts__input_brands" type="text" name="auto" autocomplete="off" placeholder="Выберите машину">
+                  <div class="form-parts__dropdown-brands">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="dropdown-brands-item"><img src="dist/images/audi.png"> Audi</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/bmw.png"> BMW</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/volvo.png"> Volvo</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/mercedec.png"> Мерседес-Бенц</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/vw.png"> Volkswagen</div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="dropdown-brands-item"><img src="dist/images/audi.png"> Audi</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/bmw.png"> BMW</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/volvo.png"> Volvo</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/mercedec.png"> Мерседес-Бенц</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/vw.png"> Volkswagen</div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="dropdown-brands-item"><img src="dist/images/audi.png"> Audi</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/bmw.png"> BMW</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/volvo.png"> Volvo</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/mercedec.png"> Мерседес-Бенц</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/vw.png"> Volkswagen</div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="dropdown-brands-item"><img src="dist/images/audi.png"> Audi</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/bmw.png"> BMW</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/volvo.png"> Volvo</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/mercedec.png"> Мерседес-Бенц</div>
+                          <div class="dropdown-brands-item"><img src="dist/images/vw.png"> Volkswagen</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="form-parts__input-item">
+                  <input class="form-parts__input form-parts__input_model" type="text" name="model" autocomplete="off" placeholder="Модель">
+                  <div class="form-parts__dropdown-model">
+                    <div class="row">
+                      <div class="col-md-2 text-center">
+                        <div class="auto-brand__brand-img">
+                          <img src="dist/images/audi.png" alt="">
+                        </div>
+                        <div class="auto-brand__brand-name">
+                          Audi
+                        </div>
+                      </div>
+                      <div class="col-md-10">
+                        <div class="auto-brand__model-list">
+                          <div class="auto-brand__model dropdown-model-item">100</div>
+                          <div class="auto-brand__model dropdown-model-item">80</div>
+                          <div class="auto-brand__model dropdown-model-item">A3</div>
+                          <div class="auto-brand__model dropdown-model-item">A4</div>
+                          <div class="auto-brand__model dropdown-model-item">A5</div>
+                          <div class="auto-brand__model dropdown-model-item">A6</div>
+                          <div class="auto-brand__model dropdown-model-item">A6 allroad</div>
+                          <div class="auto-brand__model dropdown-model-item">A8</div>
+                          <div class="auto-brand__model dropdown-model-item">Q3</div>
+                          <div class="auto-brand__model dropdown-model-item">Q5</div>
+                          <div class="auto-brand__model dropdown-model-item">Q7</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-parts__input-item">
+                  <input class="form-parts__input form-parts__input_year" type="text" name="year" autocomplete="off" placeholder="Год">
+                  <div class="form-parts__dropdown-year">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-parts__year-list">
+                          <div class="form-parts__year-item dropdown-year-item">2017</div>
+                          <div class="form-parts__year-item dropdown-year-item">2016</div>
+                          <div class="form-parts__year-item dropdown-year-item">2015</div>
+                          <div class="form-parts__year-item dropdown-year-item">2014</div>
+                          <div class="form-parts__year-item dropdown-year-item">2013</div>
+                          <div class="form-parts__year-item dropdown-year-item">2012</div>
+                          <div class="form-parts__year-item dropdown-year-item">2011</div>
+                          <div class="form-parts__year-item dropdown-year-item">2010</div>
+                          <div class="form-parts__year-item dropdown-year-item">2009</div>
+                          <div class="form-parts__year-item dropdown-year-item">2008</div>
+                          <div class="form-parts__year-item dropdown-year-item">2007</div>
+                          <div class="form-parts__year-item dropdown-year-item">2006</div>
+                          <div class="form-parts__year-item dropdown-year-item">2005</div>
+                          <div class="form-parts__year-item dropdown-year-item">2004</div>
+                          <div class="form-parts__year-item dropdown-year-item">2003</div>
+                          <div class="form-parts__year-item dropdown-year-item">2000</div>
+                          <div class="form-parts__year-item dropdown-year-item">1999</div>
+                          <div class="form-parts__year-item dropdown-year-item">1998</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-parts__input-item">
+                  <input class="form-parts__input form-parts__input_modification" type="text" name="modification" autocomplete="off" placeholder="Модификацию">
+                  <div class="form-parts__dropdown-modification">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="form-parts__modification-list">
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">L5, 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">V-8 3.6L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-parts__modification-list">
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">L5, 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">V-8 3.6L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-parts__modification-list">
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">L5, 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">V-8 3.6L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-parts__modification-list">
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">L5, 2.3L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">V-8 3.6L</div>
+                          <div class="form-parts__modification-item dropdown-modification-item">5-Cyl. 2.3L</div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="form-parts__input-item">
+                  <input class="form-parts__input form-parts__input_work" type="text" name="work" autocomplete="off" placeholder="Тип работ">
+                  <div class="form-parts__dropdown-work">
+                    <div class="row">
+                      <div class="col-md-4">
+                          <div class="form-parts__work-item dropdown-works-item">Двигатель</div>
+                          <div class="form-parts__work-item dropdown-works-item">Сцепление</div>
+                          <div class="form-parts__work-item dropdown-works-item">Приводные детали</div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-parts__work-item dropdown-works-item">Впускная и выпускная система</div>
+                        <div class="form-parts__work-item dropdown-works-item">Трансмиссия</div>
+                        <div class="form-parts__work-item dropdown-works-item">Система управления </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-parts__work-item dropdown-works-item">Топливная система </div>
+                        <div class="form-parts__work-item dropdown-works-item">Покрышки и  диски</div>
+                        <div class="form-parts__work-item dropdown-works-item">Корпус и кузовные детали</div>
+                        <div class="form-parts__work-item dropdown-works-item">Электрика</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="form-parts__wrapper-submit">
+                <input class="form-parts__submit" type="submit" value="Подобрать запчасти">
+              </div>-->
+            </form>
+            <div class="form-parts__result-wrapper">
+              <div class="form-parts__result">
+                <div class="form-parts__result-item">
+                   <div class="form-parts__result-img">
+                      <img src="dist/images/parts.jpg" alt="">
+                   </div>
+                   <div class="form-parts__result-description">
+                     <div class="form-parts__result-heading">
+                      <p>Кронштейн двигателя Ауди А4 В6 8Е, Ауди А6 С5, 8E0199351, 8E0199351M, 8E0199352, 8E0199352D, 8E0199352F, 8E0199352N</p>
+                     </div>
+                     <div class="form-parts__result-more">
+                       <div>Оригинальный</div>
+                       <div>Положение   -  правый</div>
+                     </div>
+                   </div>
+                   <div class="form-parts__result-price">
+                      <div class="form-parts__result-price-number">
+                        800 р
+                      </div>
+                     <div class="form-parts__result-button">
+                       <button class="form-parts__result-btn">Оформить</button>
+                     </div>
+                   </div>
+                </div>
+                <div class="form-parts__result-item">
+                  <div class="form-parts__result-img">
+                    <img src="dist/images/parts.jpg" alt="">
+                  </div>
+                  <div class="form-parts__result-description">
+                    <div class="form-parts__result-heading">
+                      <p>Кронштейн двигателя Ауди А4 В6 8Е, Ауди А6 С5, 8E0199351, 8E0199351M, 8E0199352, 8E0199352D, 8E0199352F, 8E0199352N</p>
+                    </div>
+                    <div class="form-parts__result-more">
+                      <div>Оригинальный</div>
+                      <div>Положение   -  правый</div>
+                    </div>
+                  </div>
+                  <div class="form-parts__result-price">
+                    <div class="form-parts__result-price-number">
+                      800 р
+                    </div>
+                    <div class="form-parts__result-button">
+                      <button class="form-parts__result-btn">Оформить</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-parts__result-item">
+                  <div class="form-parts__result-img">
+                    <img src="dist/images/parts.jpg" alt="">
+                  </div>
+                  <div class="form-parts__result-description">
+                    <div class="form-parts__result-heading">
+                      <p>Кронштейн двигателя Ауди А4 В6 8Е, Ауди А6 С5, 8E0199351, 8E0199351M, 8E0199352, 8E0199352D, 8E0199352F, 8E0199352N</p>
+                    </div>
+                    <div class="form-parts__result-more">
+                      <div>Оригинальный</div>
+                      <div>Положение   -  правый</div>
+                    </div>
+                  </div>
+                  <div class="form-parts__result-price">
+                    <div class="form-parts__result-price-number">
+                      800 р
+                    </div>
+                    <div class="form-parts__result-button">
+                      <button class="form-parts__result-btn">Оформить</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-parts__result-item">
+                  <div class="form-parts__result-img">
+                    <img src="dist/images/parts.jpg" alt="">
+                  </div>
+                  <div class="form-parts__result-description">
+                    <div class="form-parts__result-heading">
+                      <p>Кронштейн двигателя Ауди А4 В6 8Е, Ауди А6 С5, 8E0199351, 8E0199351M, 8E0199352, 8E0199352D, 8E0199352F, 8E0199352N</p>
+                    </div>
+                    <div class="form-parts__result-more">
+                      <div>Оригинальный</div>
+                      <div>Положение   -  правый</div>
+                    </div>
+                  </div>
+                  <div class="form-parts__result-price">
+                    <div class="form-parts__result-price-number">
+                      800 р
+                    </div>
+                    <div class="form-parts__result-button">
+                      <button class="form-parts__result-btn">Оформить</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-parts__result-item">
+                  <div class="form-parts__result-img">
+                    <img src="dist/images/parts.jpg" alt="">
+                  </div>
+                  <div class="form-parts__result-description">
+                    <div class="form-parts__result-heading">
+                      <p>Кронштейн двигателя Ауди А4 В6 8Е, Ауди А6 С5, 8E0199351, 8E0199351M, 8E0199352, 8E0199352D, 8E0199352F, 8E0199352N</p>
+                    </div>
+                    <div class="form-parts__result-more">
+                      <div>Оригинальный</div>
+                      <div>Положение   -  правый</div>
+                    </div>
+                  </div>
+                  <div class="form-parts__result-price">
+                    <div class="form-parts__result-price-number">
+                      800 р
+                    </div>
+                    <div class="form-parts__result-button">
+                      <button class="form-parts__result-btn">Оформить</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="page__pagination">
+               <nav>
+                 <ul class="pagination pagination-lg">
+                   <li>
+                     <a href="#">
+                       &larr;
+                     </a>
+                   </li>
+                   <li class="active"><a href="#">1</a></li>
+                   <li><a href="#">2</a></li>
+                   <li><a href="#">3</a></li>
+                   <li><a href="#">4</a></li>
+                   <li><a href="#">5</a></li>
+                   <li>
+                     <a href="#">
+                       &rarr;
+                     </a>
+                   </li>
+               </ul>
+               </nav>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article class="article-post article-post_parts container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="article-post__title">Оригинальные запчасти и качественные аналоги</h1>
+          <div class="article-post__text">
+            <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Delectus distinctio eaque excepturi, harum iusto libero magnam molestiae nam, perspiciatis provident ratione reprehenderit voluptatem, voluptates. Accusantium error facilis magnam neque quod sunt voluptatibus! Adipisci dolores error quaerat quidem, soluta voluptatem. Adipisci aspernatur cumque dicta dolor doloremque, dolorum expedita explicabo, fugiat harum id illum laboriosam magni minima mollitia necessitatibus neque nihil, nulla officiis placeat quam ratione repudiandae saepe sapiente unde ut velit veritatis voluptates. Aut distinctio, doloribus, eius illo in laudantium magni mollitia natus perspiciatis quas quisquam similique soluta, sunt suscipit vel! Consequuntur eaque, eum fugiat illum inventore libero natus nulla rem velit. Asperiores assumenda, atque cumque dolores enim eos exercitationem explicabo harum hic iste maiores molestiae mollitia nam natus nemo odio officiis placeat, porro, praesentium quae quam quod recusandae rem sapiente voluptates? Ab autem cum et itaque, numquam provident veniam veritatis. Asperiores cumque dicta earum eligendi eos id ipsa ipsum maxime non officiis porro, provident quae quas quasi quos recusandae sequi velit veniam voluptatem voluptates! Blanditiis cumque inventore, minima nobis possimus voluptates! Accusamus blanditiis commodi, ducimus ipsam magnam minima optio, recusandae rem sapiente sed sunt, totam! Architecto dignissimos laudantium neque placeat quasi, quia sed suscipit voluptatem! Dolore dolorem doloremque eum eveniet, explicabo libero maxime optio quibusdam quisquam quos reprehenderit repudiandae, ullam vel vero vitae! A aliquam assumenda, atque consectetur dolor dolorem esse explicabo incidunt iusto libero neque nobis non omnis quos rem totam veniam. Aspernatur consequatur fuga incidunt molestiae optio saepe voluptas. A accusamus accusantium adipisci aperiam atque, autem beatae consequatur corporis cum doloribus et ex fuga harum, illo illum incidunt inventore iure libero magnam magni maiores minima nesciunt nisi nobis placeat possimus quo reiciendis rem sapiente sit, tempore temporibus tenetur totam unde vel veritatis vitae! A beatae dolorum, et eum inventore itaque, mollitia nostrum odio porro quaerat quia, similique voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea eum numquam quisquam reprehenderit unde vero. Maxime, quibusdam, repudiandae. Commodi, cum deserunt expedita facilis officiis ratione tempore. Animi aperiam commodi cumque distinctio ea est expedita id in, minus nulla officia pariatur quam quibusdam quos repellendus suscipit totam veniam veritatis voluptates voluptatum? Accusamus distinctio dolor dolorum error reiciendis! A culpa eius et id iste laborum perferendis repudiandae sequi voluptatem, voluptatum. Animi commodi eius excepturi laboriosam mollitia officiis quam quas veniam. Consequatur obcaecati quos saepe unde voluptas? Aliquid consequatur deserunt doloremque enim hic incidunt nihil quam quasi repudiandae ullam! Blanditiis, deserunt illum!</p>
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+      <section class="breadcrumbs">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="#">Главная</a></li>
+            <li class="active">Запчасти</li>
+          </ol>
+        </div>
+      </section>
+  </section>
+  <footer>
+    <section class="footer-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+              <a class="footer-menu__heading" href="#">О компании</a>
+
+            <ul class="footer-menu__company-details">
+              <li>ООО «Автовизит»</li>
+              <li>ИНН 1234567889</li>
+              <li>КПП 123456</li>
+              <li>ОГРН 123456789</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Сервис</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Трансмиссия</a></li>
+              <li><a href="#">Двигатель</a></li>
+              <li><a href="#">Кузов</a></li>
+              <li><a href="#">Подвеска</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading footer-menu__heading_active" href="#">Запчасти</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Подбор запчастей</a></li>
+              <li><a href="#">Заказать запчасти</a></li>
+              <li><a href="#">Запчасти на TOYOTA</a></li>
+              <li><a href="#">Запчасти на BMW</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Масло</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Подбор моторного масла</a></li>
+              <li><a href="#">Заказать маторное масло</a></li>
+              <li><a href="#">Маторное масло для TOYOTA</a></li>
+              <li><a href="#">Моторное масло для LEXUS</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Марки</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">TOYOTA</a></li>
+              <li><a href="#">BMW</a></li>
+              <li><a href="#">NISSAN</a></li>
+              <li><a href="#">Все марки</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Акции</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Специальные цены на предустановку пусковых двигателей</a></li>
+              <li><a href="#">Выгодная мойка радиатора охлаждения</a></li>
+              <li><a href="#">Все акции</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Контакты</a>
+
+            <ul class="footer-menu__company-details">
+              <li>МО, МИНСКОЕ ШОССЕ,
+                КРАСНОЗНАМЕНСК</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-elements">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <div class="footer-elements__logo">
+                Авто<span class="footer-elements__logo_white">визит</span>
+              </div>
+              <div class="footer-elements__sub-logo">
+                Автотехцентр
+              </div>
+            </a>
+            <div class="footer-elements__phone">
+              <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+74957757779">+7 (495) 775-77-79</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-elements__address">
+              Московская область,
+              43-й км Минского шоссе, (23 км от МКАД)
+            </div>
+            <div class="footer-elements__work-hours">
+              с 9 до 21 ч./ 7 дней в неделю
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-elements__form">
+              <form action="" method="post" class="footer-form">
+                <div><input class="footer-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                <div><input class="footer-form__input-submit" type="submit" value="Записаться на сервис"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- Modal -->
+  <div class="popup-form">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="popup-form__close"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+          <div class="modal-body">
+            <div class="popup-form__heading">Укажите имя и телефон</div>
+            <div class="popup-form__block-form">
+              <form action="" method="post" class="popup-form-form">
+                <div><input class="popup-form__input-name" name="name" autocomplete="off" type="text" placeholder="Ваше имя"></div>
+                <div><input class="popup-form__input-phone popup-form__input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                <div class="text-center"><input class="popup-form__input-submit" type="submit" value="Записаться на сервис"></div>
+              </form>
+            </div>
+            <p class="popup-form__agreement">Заполняя данную форму вы принимаете условия Соглашения об использовании сайта, в том числе в части <a
+              href="#">обработки и использования</a> персональных данных.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#0" class="cd-top">Top</a>
+  <script src="dist/js/jquery.min.js?v=1"></script>
+  <script src="dist/js/slick.min.js"></script>
+  <script src="dist/js/jquery.validate.min.js"></script>
+  <script src="dist/js/jquery.inputmask.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="dist/js/main.js?v=10"></script>
+</body>
+</html>

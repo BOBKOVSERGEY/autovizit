@@ -33,6 +33,9 @@
       border: 1px solid #D62F26;
     }
   }
+  &__brand-img img{
+    max-width: 100%;
+  }
   &__model-list {
     margin-top: 15px;
   }

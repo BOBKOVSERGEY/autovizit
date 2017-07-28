@@ -1,0 +1,17 @@
+.page {
+  &__pagination {
+    margin-top: 30px;
+  }
+  &__pagination .pagination-lg>li>a {
+    font-size: 22px;
+    color: #939393;
+    &:hover {
+      color: #d62f26;
+    }
+  }
+  &__pagination .pagination>.active>a, &__pagination .pagination>.active>a:focus, &__pagination .pagination>.active>a:hover {
+    color: #fff;
+    background-color: #d62f26;
+    border-color: #d62f26;
+  }
+}

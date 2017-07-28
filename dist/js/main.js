@@ -391,6 +391,118 @@ $(function () {
   });
   /*end button to top*/
 
+  /*form-parts*/
+  /*form-parts dropdown-brands*/
+  $('.form-parts__input_brands').on('click', function () {
+    $('.form-parts__dropdown-brands').slideToggle();
+    $('.form-parts__dropdown-model').slideUp();
+    $('.form-parts__dropdown-year').slideUp();
+    $('.form-parts__dropdown-modification').slideUp();
+    $('.form-parts__dropdown-work').slideUp();
+  })
+  $('.dropdown-brands-item').bind('click',function(){
+    var val = $('.form-parts__input_brands').val();
+    var brand = $(this).text();
+    $('.form-parts__input_brands').val(val + brand);
+    $('.form-parts__dropdown-brands').slideUp();
+  });
+  /*end form-parts dropdown-brands*/
+  /*form-parts dropdown-model*/
+  $('.form-parts__input_model').on('click', function () {
+    $('.form-parts__dropdown-model').slideToggle();
+    $('.form-parts__dropdown-brands').slideUp();
+    $('.form-parts__dropdown-year').slideUp();
+    $('.form-parts__dropdown-modification').slideUp();
+    $('.form-parts__dropdown-work').slideUp();
+  })
+  $('.dropdown-model-item').bind('click',function(){
+    var val = $('.form-parts__input_model').val();
+    var brand = $(this).text();
+    $('.form-parts__input_model').val(val + brand);
+    $('.form-parts__dropdown-model').slideUp();
+  });
+  /*end form-parts dropdown-model*/
+  /*form-parts dropdown-year*/
+  $('.form-parts__input_year').on('click', function () {
+    $('.form-parts__dropdown-year').slideToggle();
+    $('.form-parts__dropdown-brands').slideUp();
+    $('.form-parts__dropdown-model').slideUp();
+    $('.form-parts__dropdown-modification').slideUp();
+    $('.form-parts__dropdown-work').slideUp();
+  })
+  $('.dropdown-year-item').bind('click',function(){
+    var val = $('.form-parts__input_year').val();
+    var brand = $(this).text();
+    $('.form-parts__input_year').val(val + brand);
+    $('.form-parts__dropdown-year').slideUp();
+  });
+  /*end form-parts dropdown-year*/
+  /*form-parts dropdown-modification*/
+  $('.form-parts__input_modification').on('click', function () {
+    $('.form-parts__dropdown-modification').slideToggle();
+    $('.form-parts__dropdown-brands').slideUp();
+    $('.form-parts__dropdown-model').slideUp();
+    $('.form-parts__dropdown-year').slideUp();
+    $('.form-parts__dropdown-work').slideUp();
+  })
+  $('.dropdown-modification-item').bind('click',function(){
+    var val = $('.form-parts__input_modification').val();
+    var brand = $(this).text();
+    $('.form-parts__input_modification').val(val + brand);
+    $('.form-parts__dropdown-modification').slideUp();
+  });
+  /*end form-parts dropdown-modification*/
+  /*form-parts dropdown-work*/
+  $('.form-parts__input_work').on('click', function () {
+    $('.form-parts__dropdown-work').slideToggle();
+    $('.form-parts__dropdown-brands').slideUp();
+    $('.form-parts__dropdown-model').slideUp();
+    $('.form-parts__dropdown-year').slideUp();
+    $('.form-parts__dropdown-modification').slideUp();
+  })
+  $('.dropdown-works-item').bind('click',function(){
+    var val = $('.form-parts__input_work').val();
+    var brand = $(this).text();
+    $('.form-parts__input_work').val(val + brand);
+    $('.form-parts__dropdown-work').slideUp();
+  });
+  /*end form-parts dropdown-work*/
+
+  /*reset form*/
+  $('.reset-form-parts').on('click', function () {
+
+    $(".form-parts__form")[0].reset();
+    $('.form-parts__dropdown-work').slideUp();
+    $('.form-parts__dropdown-brands').slideUp();
+    $('.form-parts__dropdown-model').slideUp();
+    $('.form-parts__dropdown-year').slideUp();
+    $('.form-parts__dropdown-modification').slideUp();
+    $('.form-parts__input').css({
+      'background':'#fff'
+    });
+  });
+
+  /*bg input form  service*/
+
+  $('.form-parts__input').on('click', function () {
+    $(this).css({
+      'background':'#ebeaea'
+    });
+  });
+
+  /*show result
+  $('.form-parts__input_work').on('input', function () {
+    var valInputWork = $(this).val();
+    if (valInputWork.length >= 5) {
+      $('.form-parts__result-wrapper').slideDown();
+    } else {
+      $('.form-parts__result-wrapper').slideUp();
+    }
+    console.log(valInputWork.length);
+  })
+   */
+  /*     end-form-parts
+  ==========================*/
   /*form service dropdown-brands*/
   $('.form-service__input_brands').on('click', function () {
     $('.form-service__dropdown-brands').slideToggle();
