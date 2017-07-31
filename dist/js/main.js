@@ -465,6 +465,7 @@ $(function () {
     var brand = $(this).text();
     $('.form-parts__input_work').val(val + brand);
     $('.form-parts__dropdown-work').slideUp();
+    $('.form-parts__result-wrapper').slideDown();
   });
   /*end form-parts dropdown-work*/
 

@@ -197,10 +197,25 @@
     border: 0;
     font-family: RobotoMedium;
     width: 285px;
+    outline: none;
     transition: all .3s;
+    &:hover{
+      background: #000;
+    }
   }
-  &__result-btn:hover{
-    background: #000;
+  &__result-heading {
+    & a {
+      color: #000;
+      transition: all .3s;
+      &:hover {
+        color: #d62f26;
+        text-decoration: none;
+      }
+      &:focus {
+        color: #d62f26;
+        text-decoration: none;
+      }
+    }
   }
   &__result-price-number {
     color: #d62f26;

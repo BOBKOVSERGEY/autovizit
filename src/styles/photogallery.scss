@@ -10,8 +10,12 @@
 
 .gallery {
   text-align: center;
+
   &__item {
     outline: none;
+    & a {
+      outline: none;
+    }
   }
   &__img {
       margin: 0 5px;

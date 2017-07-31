@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dist/css/fonts.css">
+  <link rel="stylesheet" href="dist/css/slick.css?v=27">
+  <link rel="stylesheet" href="dist/css/slick-theme.css?v=27">
+  <link rel="stylesheet" href="dist/css/main.css?v=30">
+
+  <!-- Favicons for all devices -->
+  <link rel="apple-touch-icon" sizes="57x57" href="dist/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="dist/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="dist/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="dist/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="dist/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="dist/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="dist/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="dist/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="dist/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="dist/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="dist/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="dist/images/favicons/manifest.json">
+  <link rel="mask-icon" href="dist/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="dist/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Document</title>
+
+</head>
+<body>
+  <header>
+    <section class="address-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="address-top__desc">
+              Московская область, 43-й км Минского шоссе, (23 км от МКАД)
+            </div>
+          </div>
+          <div class="col-sm-4 text-center hidden-xs">
+            <a href="#" class="address-top__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header-elements">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="logo-header">
+              <div class="header-elements__logo">
+                Авто<span class="header-elements__logo_white">визит</span>
+              </div>
+              <div class="header-elements__sub-logo">
+                Автотехцентр
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 header-elements__block-phone">
+            <div class="header-elements__phone text-center">
+              <a href="tel:+74957757779">+7 (495) 775-77-79</a>
+              <div class="header-elements__work-hours">с 9 до 21 ч./ 7 дней в неделю</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header-menu">
+      <div class="main-menu">
+        <nav class="navbar">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="hidden-lg hidden-md hidden-sm text-center">
+                <a href="#" class="main-menu__btn" data-toggle="modal" data-target="#myModal">Перезвонить мне</a>
+              </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="about.html">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/about.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">О компании</div>
+                  </a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/service.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Сервис</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Трансмиссия</a></li>
+                    <li><a href="#">Двигатель</a></li>
+                    <li><a href="#">Кузов</a></li>
+                    <li><a href="#">Подвеска</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/spareparts.png" alt="">
+                    </div>
+                    <div class="nav-icons__links nav-icons__links_active">Запчасти</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/butter.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Масло</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/model.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Марки</div>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Мерседес</a></li>
+                    <li><a href="#">Шкода</a></li>
+                    <li><a href="#">Ауди</a></li>
+                    <li><a href="#">Фолкс</a></li>
+                    <li><a href="#">Ниссан</a></li>
+                    <li><a href="#">Акура</a></li>
+                    <li><a href="#">Газ</a></li>
+                    <li><a href="#">Лада</a></li>
+                    <li><a href="#">Порше</a></li>
+                    <li><a href="#">Бугатти</a></li>
+                    <li><a href="#">Мазератти</a></li>
+                    <li><a href="#">Феррари</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/stock.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Акции</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="contacts.html">
+                    <div class="nav-icons__wrapper">
+                      <img src="dist/images/contacts.png" alt="">
+                    </div>
+                    <div class="nav-icons__links">Контакты</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <section class="content">
+    <section class="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="product__img">
+              <img src="dist/images/zap.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="product__wrapper-text">
+              <h1 class="product__heading">Кронштейн двигателя ауди</h1>
+              <div class="product__description">
+                <p>Ауди А4 В6 8Е, Ауди А6 С5, 8E0199351, 8E0199351M, 8E0199352, 8E0199352D,
+                  8E0199352F, 8E0199352N</p>
+              </div>
+              <p>Оригинальный</p>
+              <p>Положение - правый</p>
+              <div class="product__wrapper-price">
+                <div class="product__block-price">
+                  <div class="product__price">
+                    Цена: <span>800 р</span>
+                  </div>
+                  <div class="product__button">
+                    <button class="product__btn">Оформить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="photo-gallery">
+      <div class="container">
+        <div class="photo-gallery__heading">
+          Похожие запчасти
+        </div>
+        <div class="gallery js-gallery">
+          <div class="gallery__item">
+            <a href="#">
+              <div class="gallery__img">
+                <img src="dist/images/zap.jpg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a href="#">
+              <div class="gallery__img">
+                <img src="dist/images/zap.jpg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a href="#">
+              <div class="gallery__img">
+                <img src="dist/images/zap.jpg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a href="#">
+              <div class="gallery__img">
+                <img src="dist/images/zap.jpg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a href="#">
+              <div class="gallery__img">
+                <img src="dist/images/zap.jpg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="gallery__item">
+            <a href="#">
+              <div class="gallery__img">
+                <img src="dist/images/zap.jpg" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="brands__arrow text-center">
+          <button class="slider-arrow prev js-slider-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+          <button class="slider-arrow next js-slider-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </section>
+    <section class="product-full-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="product-full-text__heading">Оригинальные запчасти и качественные аналоги</h2>
+            <div class="product-full-text__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam animi autem consectetur culpa, distinctio, dolor dolorem ea eligendi et fugiat, ipsum laborum minima mollitia nam necessitatibus numquam obcaecati officiis omnis optio pariatur perspiciatis placeat porro quae quasi reprehenderit sapiente sit temporibus tenetur ut veritatis vero voluptatem voluptatum. Ab architecto blanditiis deleniti distinctio doloremque ducimus facilis fuga ipsa labore nam natus neque obcaecati officiis, quas quos temporibus ullam vel voluptas! Ab aperiam cumque deleniti distinctio doloribus dolorum, ea error excepturi facere fugiat, illo ipsum laborum magnam maxime molestiae mollitia nisi omnis pariatur perferendis quibusdam reprehenderit saepe similique soluta ullam voluptates!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam animi autem consectetur culpa, distinctio, dolor dolorem ea eligendi et fugiat, ipsum laborum minima mollitia nam necessitatibus numquam obcaecati officiis omnis optio pariatur perspiciatis placeat porro quae quasi reprehenderit sapiente sit temporibus tenetur ut veritatis vero voluptatem voluptatum. Ab architecto blanditiis deleniti distinctio doloremque ducimus facilis fuga ipsa labore nam natus neque obcaecati officiis, quas quos temporibus ullam vel voluptas! Ab aperiam cumque deleniti distinctio doloribus dolorum, ea error excepturi facere fugiat, illo ipsum laborum magnam maxime molestiae mollitia nisi omnis pariatur perferendis quibusdam reprehenderit saepe similique soluta ullam voluptates!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Запчасти</a></li>
+          <li class="active">Кронштейн двигателя Audi</li>
+        </ol>
+      </div>
+    </section>
+  </section>
+  <footer>
+    <section class="footer-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+              <a class="footer-menu__heading" href="#">О компании</a>
+
+            <ul class="footer-menu__company-details">
+              <li>ООО «Автовизит»</li>
+              <li>ИНН 1234567889</li>
+              <li>КПП 123456</li>
+              <li>ОГРН 123456789</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Сервис</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Трансмиссия</a></li>
+              <li><a href="#">Двигатель</a></li>
+              <li><a href="#">Кузов</a></li>
+              <li><a href="#">Подвеска</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading footer-menu__heading_active" href="#">Запчасти</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Подбор запчастей</a></li>
+              <li><a href="#">Заказать запчасти</a></li>
+              <li><a href="#">Запчасти на TOYOTA</a></li>
+              <li><a href="#">Запчасти на BMW</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Масло</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Подбор моторного масла</a></li>
+              <li><a href="#">Заказать маторное масло</a></li>
+              <li><a href="#">Маторное масло для TOYOTA</a></li>
+              <li><a href="#">Моторное масло для LEXUS</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Марки</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">TOYOTA</a></li>
+              <li><a href="#">BMW</a></li>
+              <li><a href="#">NISSAN</a></li>
+              <li><a href="#">Все марки</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Акции</a>
+
+            <ul class="footer-menu__links">
+              <li><a href="#">Специальные цены на предустановку пусковых двигателей</a></li>
+              <li><a href="#">Выгодная мойка радиатора охлаждения</a></li>
+              <li><a href="#">Все акции</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1 col-sm-3 col-xs-6">
+
+            <a class="footer-menu__heading" href="#">Контакты</a>
+
+            <ul class="footer-menu__company-details">
+              <li>МО, МИНСКОЕ ШОССЕ,
+                КРАСНОЗНАМЕНСК</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-elements">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <div class="footer-elements__logo">
+                Авто<span class="footer-elements__logo_white">визит</span>
+              </div>
+              <div class="footer-elements__sub-logo">
+                Автотехцентр
+              </div>
+            </a>
+            <div class="footer-elements__phone">
+              <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+74957757779">+7 (495) 775-77-79</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-elements__address">
+              Московская область,
+              43-й км Минского шоссе, (23 км от МКАД)
+            </div>
+            <div class="footer-elements__work-hours">
+              с 9 до 21 ч./ 7 дней в неделю
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-elements__form">
+              <form action="" method="post" class="footer-form">
+                <div><input class="footer-form__input-phone input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                <div><input class="footer-form__input-submit" type="submit" value="Записаться на сервис"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- Modal -->
+  <div class="popup-form">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="popup-form__close"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+          <div class="modal-body">
+            <div class="popup-form__heading">Укажите имя и телефон</div>
+            <div class="popup-form__block-form">
+              <form action="" method="post" class="popup-form-form">
+                <div><input class="popup-form__input-name" name="name" autocomplete="off" type="text" placeholder="Ваше имя"></div>
+                <div><input class="popup-form__input-phone popup-form__input-mask" name="phone" autocomplete="off" type="tel" placeholder="+7(___)___-__-__"></div>
+                <div class="text-center"><input class="popup-form__input-submit" type="submit" value="Записаться на сервис"></div>
+              </form>
+            </div>
+            <p class="popup-form__agreement">Заполняя данную форму вы принимаете условия Соглашения об использовании сайта, в том числе в части <a
+              href="#">обработки и использования</a> персональных данных.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#0" class="cd-top">Top</a>
+  <script src="dist/js/jquery.min.js?v=1"></script>
+  <script src="dist/js/slick.min.js"></script>
+  <script src="dist/js/jquery.validate.min.js"></script>
+  <script src="dist/js/jquery.inputmask.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="dist/js/main.js?v=11"></script>
+</body>
+</html>
